@@ -3,7 +3,7 @@
 # basic commands
   git add . | * | --all
   git commit -m 'some commit message'
-  git push
+  git push 2
   
   
   git checkout -b nameOfBranch
