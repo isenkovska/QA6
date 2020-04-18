@@ -9,7 +9,7 @@
 //2 функция helloName, которая принимает имя и время дня 
 // time ("morning", "afternoon", "evening") и возращает 
 // приветствие:  "Good" + time + name + !
-
+// 
 // function helloName (name, time){
 //   //return 'Good ' + time + ' ' + name + '!';
 //   return `Good ${time} ${name}!`;
