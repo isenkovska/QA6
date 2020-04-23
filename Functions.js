@@ -143,34 +143,77 @@
 
 // --------------------------------------------------------------------
 //12 Функция greetings
-// принимает два параметра: name и hour (in 24h format)
+// принимает два параметра: name и  (in 24h format)
 // если 0 <= time <6  return "Good night, name".
 // если 7 <= time <11 return "Good morning, name".
 // если 12 <= time < 17  return "Good day, name".
 // если 18<= time <23  return "Good evening, name"
  //function greetings (){
    
-   
- //}
-
-//console.log(greetings ());
-
-
- // `${}` 
-// console.log(greetings('Alice', 'morning'));
+// function greetings(name,hour){
+//  let time;
+//   if(hour >= 0 && hour < 6) time = 'night';
+//    else if (hour >= 6 && hour <= 11) time = 'morning';
+//      else if (hour >= 12 && hour <= 17) time = 'day';
+//       else time = 'evening';
+//   return `Good ${time}, ${name}`
+// }
+ 
+// console.log(greetings ('Alice',18));
 // ----------------------------------------------------
 //13 функция sum, которая принимает число n и
 // возвращает 1 + 2 + 3 + ... + n
+//  function sum (n){
+//    let total = 0;
+//     for(let i = 0; i <= n;i++){
+//       total ++;
+      
+//     }
+//  return sum;
+//  }
+
+// console.log(sum(10));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // ----------------------------------------------
 //14 функция factorial, которая принимает число n и
 // возвращает 1 * 2 * 3 * ... * n
-// если n = 0, вернуть 1
+// // если n = 0, вернуть 1
+// function factorial (n){
+//    let total = 1;
+//     for(let i = 1; i <= n; i++){
+//       total *= i;
+      
+//     }
+//  return total;
+//  }
+
+// console.log(factorial(10));
 
 // ----------------------------------------------------
 //15 функция characterOfWord принимает строку и число n 
 // и возвращает cимвол строки с номером n, или сообщение 
 // "Error", если такого символа нет
+
+// function characterOfWord (str,n){
+//   return (str[n]) ? str[n]:'Error';
+// }
+// console.log(characterOfWord('Hello',5));
 
 // ------------------------------------------
 //16 функция reverseName принимает строку str и 
@@ -193,18 +236,31 @@
 
 // function cutString(str, n, m){
 
-  // }  
-  
+//   function cutString(str, n, m){
+//     let newStr = '';
+//     for(let i = n; i <str.length - m; i++){
+//      newStr += str[i]; 
+//     }
+//   return newStr;
+//   }
+
 // console.log(cutString('Five little monkeys jumping on the bed', 5, 8));
 // --------------------------------------------------------------------
 //18 функция firstWord получает строку str, состоящую
 // из нескольких слов, разделенных пробелами. 
 // Вернуть первое слово строки
   
-// function firstWord (str){
+//    function firstWord (str){
+//      let newS = '';
+//      let i = 0;
+//     while(str[i]!== ''){
+//       newS = str[i] + newS;
+//       i++;
+//       } 
+//      return newS;
+//    }
 
-// }
-// console.log(firstWord('Hello world'));
+//  console.log(firstWord('Hello world'));
 
 // --------------------------------------------------------------------
 //19 функция wordInBox получает слово word и число n 
@@ -214,6 +270,18 @@
 // *   summer   *
 // **************
 // если n <= длине слова, вернуть "error"
+
+// function wordInBox(word,n){
+//   let str = '';
+//   let space = (n - word.length - 2) / 2;
+//   if (n < word.length) return 'Error';
+// return '*'.repeat(n) + '\n' + '*' + ' '.repeat(space) + word + ' '.repeat(space)+ '*' + '\n' + '*'.repeat(n);
+  
+  
+// }
+
+
+// console.log(wordInBox('summer',14));
 
 // ----------------------------------------------------
 //20 функция принимает secondWord(str)строку из 3 слов, 
