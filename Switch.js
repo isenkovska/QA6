@@ -70,4 +70,3 @@
 // }
 
 // console.log(dayOfWeek(354));
-
