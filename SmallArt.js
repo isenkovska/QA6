@@ -55,3 +55,5 @@
 //    console.log(str);
 //   }
 //--------------------------------------------
+//      Exercise 5
+//   Solution will be added
