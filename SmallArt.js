@@ -56,4 +56,17 @@
 //   }
 //--------------------------------------------
 //      Exercise 5
-//   Solution will be added
+//  (square with the same digits)
+//          " 3   3   3   3  "
+//          " 3   3   3   3  "
+//          " 3   3   3   3  "
+//          " 3   3   3   3  "
+//          " 3   3   3   3  "
+// for (let i = 1; i <= 5; i++){
+//     let sum = '';
+//     for(let j = 1; j <= 4; j++){
+//      sum +=' '+ 3 + ' ' + ' ';
+//    }
+//    console.log(sum);
+//  }
+ 
