@@ -69,4 +69,25 @@
 //    }
 //    console.log(sum);
 //  }
- 
+//        Exercise 5
+//    (fill triangle with numbers)
+//  "1
+//   2 2
+//   3 3 3
+//   4 4 4 4 
+//   5 5 5 5 5"
+// function numericalTriangle(n){
+//     let str = '';
+//     let s = '\n';
+//      for (let i = 1; i <= n; i++){     
+//       for (let j = 1 ; j <= i ; j++){  
+//         if ( j !== n )
+//          str += i + ' '; 
+//          else str += i;
+//        }
+//        if(i !== n)
+//         str += s;
+//       }
+//     return str;
+//    }
+//    console.log(numericalTriangle(5))
