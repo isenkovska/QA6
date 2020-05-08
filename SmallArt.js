@@ -91,3 +91,36 @@
 //     return str;
 //    }
 //    console.log(numericalTriangle(5))
+//  https://www.codewars.com/kata/5b4e779c578c6a898e0005c5/train/javascript (CODEWARS)
+//        Exercise 6
+//        Draw stairs      I
+//                         * I
+//                         * * I
+// function drawStairs(n) {
+
+//     let str = '';
+//     for(let i = 0; i < n; i++){
+//       for(let j = 0; j < i; j++){
+//         str = str + ' ';
+//        }
+//         if (i === n - 1){
+//           str = str + 'I';
+//         }
+//         else str = str + 'I' + '\n';
+//     }
+//       return str;
+//     }
+// -----------------------
+// function drawStairs(n) {
+//     let str = '';
+//     for(let i = 0; i < n; i++){                  
+//      str = str + ' '.repeat(i) + 'I';
+//      str = (i === n-1 ) ? str: str + '\n';
+       
+//     }
+//    return str;
+//   }
+ 
+ 
+ 
+
