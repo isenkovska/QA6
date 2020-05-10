@@ -19,41 +19,60 @@
 //   }
 //---------------------------
 // Exercise 3
-//(например i = 5, j = 10)
-// 
-// **********
-// **********
-// **********
-// **********
-// **********
-//    for(let i = 0; i < 5; i++){
-//      let strI = '';
-//       for(let j = 0; j < 10; j++ ){
-//         strI = strI + '*';
-//      }
-//     console.log(strI);
-//   }
+// ( n = 10, m = 5)
+//
+//    **********
+//    **********
+//    **********
+//    **********
+//    **********
+//    function pattern (n,m){
+//      let str = '\n';
+//       for (let i = 1; i <= m; i++){
+//         for(let j = 1; j<= n; j++){
+//           str += '*';
+//           }
+//           if (i !== m)
+//           str += '\n'
+//         }
+//      return str;
+//    }
+//    console.log(pattern(10,5));
 //----------------------------------- 
 //  Exercise 4
 // 
-// **********  незакрашенный:
-// *        *
-// *        *
-// *        *
-// **********
-// for (let i = 0; i < 5; i++){
-//      let str = '';
-//      
-//       for (let j = 0; j < 10; j++){
-//          if ( i === 0 || i=== 4) {
-//            str = str + '*'; 
-//          } else if (j === 0 || j === 9) {
-//            str = str + '*';
-//          } else 
-//            str = str + ' ';
-//        }
-//    console.log(str);
+//   **********  
+//   *        *
+//   *        *
+//   *        *
+//   **********
+//   function pattern(n,m){
+//    let str = '\n';
+//      for(let i = 1; i <= m; i++){
+//        for(let j = 1; j <= n; j++){
+//          if(i === 1 || i === m || j === 1 || j === n)
+//            str += '*';
+//           else 
+//            str += ' ';
+//         }
+//         str += '\n';
+//      }
+//     return str;
 //   }
+// console.log(pattern(10,5));
+// ***************************
+// SECOND SOLUTION
+// function pattern(n,m){
+//     let tB = '*'.repeat(n) + '\n';
+//     let s = '';
+//      let i = m - 2;
+//        while (i > 0){
+//         s += ' *'.repeat(1) + ' '.repeat(n - 2) + '*'.repeat(1) + '\n';
+//         i --;
+//         } 
+//     return tB + s + ' ' + tB;
+//   }
+//  console.log(pattern (10, 5));
 //--------------------------------------------
 //      Exercise 5
 //  (square with the same digits)
