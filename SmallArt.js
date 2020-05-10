@@ -123,6 +123,8 @@
 //  ---------------------------------
 //               Exercise 7
 //  Draw me a chessboard
+// https://www.codewars.com/kata/56242b89689c35449b000059/train/javascript
+// 
 // [                           rows 6, columns 4
 //     ["O","X","O","X"],
 //     ["X","O","X","O"],
