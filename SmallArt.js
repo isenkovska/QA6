@@ -122,7 +122,30 @@
 //   }
 //  ---------------------------------
 //               Exercise 7
-
+//  Draw me a chessboard
+// [                           rows 6, columns 4
+//     ["O","X","O","X"],
+//     ["X","O","X","O"],
+//     ["O","X","O","X"],
+//     ["X","O","X","O"],
+//     ["O","X","O","X"],
+//     ["X","O","X","O"]
+// ]
+// function chessBoard(r, c) {
+//     const arr = [];
+//     for(let i = 0; i < r; i++){   
+//       const arr1 = [];
+//         for(let j = 0; j < c; j++){ 
+//         if(j % 2 === 0)
+//           arr1.push(i %2 ===0 ?'O': 'X')        
+//         else 
+//           arr1.push(i %2 ===0 ?'X': 'O')
+//         }
+//      arr.push(arr1);
+//     }
+//   return arr;
+//   }
+  
  
  
 
