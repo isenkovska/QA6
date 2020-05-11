@@ -1,4 +1,11 @@
 
+// How to use Math.min and Math.max in nested arrays
+//
+//   const arr = [[12,45,75], [54,45,2],[23,54,75,2]];
+//   const max = Math.max(...[].concat(...arr));
+//   const min = Math.min(...[].concat(...arr));
+//   console.log(max);
+//   console.log(min);
 //-----------------------------------------------------------------------------------------
 //                 Exercise 1
 // Напишите функцию с именем countLinesWithNegativeElements, которая принимает двухмерный массив 
@@ -50,9 +57,25 @@
 //    return arr1;
 // }
 // console.log(sumsInArray([[1, 2, 3], [2, 2]])); 
-
+// ----------------------
 // How we can call elements from nested arrays,example
 // const arr = [[1, 5 ,3], 4, 5, [6, 7, 8]];
 //  console.log(arr[0][arr[0].length - 1]);
 //  arr[arr.length - 1]
-
+// ----------------------------------------
+//      Exercise  3
+// Find missing elements in array
+// function findMissing(arr1, arr2) {
+//     let compare = 0;
+//     arr1.sort();
+//     arr2.sort();
+//       for(let i = 0; i < arr1.length; i++){               
+//          if (arr1[i] !== arr2[i]){  
+//              compare = arr1[i];
+//              return compare;
+//           }
+//        }
+//     return compare;
+//    }
+//    console.log(findMissing([4, 3, 3, 61, 8, 8], [8, 61, 8, 3, 4]));
+//
