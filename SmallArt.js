@@ -166,7 +166,28 @@
 //     }
 //   return arr;
 //   }
-  
- 
+//  ---------------------------------------
+//             Exercise 8
+//     *********
+//     -*******-
+//     --*****--
+//     ---***---
+//     ----*----
+// function square(a, b){
+//     let str = '\n';
+//     let stars = b;
+//       for(let i = 1; i <= a; i++){
+//         for(let j = 1; j <= b; j++){      
+//           if(j>= i && j<=stars)
+//            str += ' * '; 
+//           else
+//            str += ' - ';
+//         }
+//         stars = stars - 1; 
+//         str += '\n';
+//      }
+//    return str;
+//   }
+//   console.log(square(10, 9));
  
 
