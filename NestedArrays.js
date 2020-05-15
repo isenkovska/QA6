@@ -6,7 +6,21 @@
 //   const min = Math.min(...[].concat(...arr));
 //   console.log(max);
 //   console.log(min);
-//-----------------------------------------------------------------------------------------
+//   
+//   *** How to use Mathod map() in arrays:
+    //( Ex. 1 )
+     //const array1 = [1, 4, 9, 16];
+     // pass a function to map
+     //const map1 = array1.map(x => x * 2);
+     //console.log(map1);
+     // expected output: Array [2, 8, 18, 32]
+    //(Ex. 2)
+    // function roundElementsOfArray(arr){
+    // const map1 = arr.map(x => Math.round(x));
+    //    return map1;
+    // }
+    // console.log(roundElementsOfArray([10.23, 34.89, 0.1, 4.45, 8.5]));  // [10, 35, 0, 4, 9]
+//---------------------------------------------------------------------------------------------
 //                 Exercise 1
 // Напишите функцию с именем countLinesWithNegativeElements, которая принимает двухмерный массив 
 // arr в качестве аргумента и возвращает количество строк, содержащих хотя бы один 
