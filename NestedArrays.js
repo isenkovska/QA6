@@ -1,11 +1,22 @@
 
 // How to use Math.min and Math.max in nested arrays
 //
+//  (Ex. 1)
 //   const arr = [[12,45,75], [54,45,2],[23,54,75,2]];
 //   const max = Math.max(...[].concat(...arr));
 //   const min = Math.min(...[].concat(...arr));
 //   console.log(max);
 //   console.log(min);
+//  (Ex. 2)
+//   function sumOfMin(arr){
+//     let sum = 0;
+//     for(let i = 0; i< arr.length; i++){
+//       let min = Math.min(...arr[i]);
+//       sum += min;
+//     }
+//    return sum;
+//   }
+//   console.log(sumOfMin([[1,2,3],[5,4],[7,-2,0]]));
 //   
 //   *** How to use Mathod map() in arrays:
     //( Ex. 1 )
