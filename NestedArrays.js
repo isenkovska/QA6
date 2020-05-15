@@ -20,7 +20,17 @@
     //    return map1;
     // }
     // console.log(roundElementsOfArray([10.23, 34.89, 0.1, 4.45, 8.5]));  // [10, 35, 0, 4, 9]
-//---------------------------------------------------------------------------------------------
+
+    //  *** How populate an array without Method push():
+// https://www.codewars.com/kata/56f69d9f9400f508fb000ba7  // Count the Monkeys!  
+// function monkeyCount(n) {
+//     const arr = [];
+//     for(let i = 1; i <= n; i++){
+//      arr[i - 1] = i;
+//     }
+//     return arr;
+//   }
+//--------------------------------------------------------
 //                 Exercise 1
 // Напишите функцию с именем countLinesWithNegativeElements, которая принимает двухмерный массив 
 // arr в качестве аргумента и возвращает количество строк, содержащих хотя бы один 
