@@ -21,4 +21,12 @@
 //   m = Math.floor((seconds - (h * 3600)) / 60);
 //     return `${h} hour(s) and ${m} minute(s)`;
 // }
+//-----------------------------------------------------
+//            Exercise 3
+// https://www.codewars.com/kata/5641c3f809bf31f008000042 
+//      Formatting decimal places #1
 
+// function twoDecimalPlaces(n) {
+//     let n2 = String(n);
+//       return +n2.substring(0, n2.indexOf('.') + 3)
+//    }
