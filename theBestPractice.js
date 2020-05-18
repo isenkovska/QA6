@@ -31,8 +31,8 @@
 //       return +n2.substring(0, n2.indexOf('.') + 3)
 //    }
 // -----------------------------------------------------
-//           Esercise 4 (from JS Practise)
-//  Find the maximum negative elements from diven array
+//           Esercise 4 (from JS Practice)
+//  Find the maximum negative elements from given array
 
 //  function maxNegative(arr){
 //     let arr2 = [];
