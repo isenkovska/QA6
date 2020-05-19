@@ -1,10 +1,14 @@
-// How to sort elements in given arrays with mixed numbers
+// *** How to sort elements in given arrays with mixed numbers
+// Use Array.prototype.sort() with a custom compare function to do the descending sort first:
 
 // console.log([4,-2,9,3,-4,12,4,-4,-9].sort((a, b) => b - a))
 //             [12,  9,  4,  4, 3,-2, -4, -4, -9]
+   
+//  console.log([4,-2,9,3,-4,12,4,-4,-9].sort((a, b) => a - b))
+//              [-9, -4, -4, -2, 3, 4, 4, 9, 12]
 
-// How to use Math.min and Math.max in nested arrays
-//
+// *** How to use Math.min and Math.max in nested arrays
+//  
 //  (Ex. 1)
 //   const arr = [[12,45,75], [54,45,2],[23,54,75,2]];
 //   const max = Math.max(...[].concat(...arr));
