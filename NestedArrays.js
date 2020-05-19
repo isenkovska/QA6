@@ -8,7 +8,6 @@
 //              [-9, -4, -4, -2, 3, 4, 4, 9, 12]
 
 // *** How to use Math.min and Math.max in nested arrays
-//  
 //  (Ex. 1)
 //   const arr = [[12,45,75], [54,45,2],[23,54,75,2]];
 //   const max = Math.max(...[].concat(...arr));
@@ -25,8 +24,13 @@
 //    return sum;
 //   }
 //   console.log(sumOfMin([[1,2,3],[5,4],[7,-2,0]]));
-//   
-//   *** How to use Mathod map() in arrays:
+
+//  *** How works Array.prototype.concat():
+//  const letters = ['a', 'b', 'c'],
+//  const numeric = [1, 2, 3];
+//     console.log(letters.concat(numeric)); // output  ['a', 'b', 'c', 1, 2, 3]
+
+//  *** How to use Mathod map() in arrays:
     //( Ex. 1 )
      //const array1 = [1, 4, 9, 16];
      // pass a function to map
