@@ -31,7 +31,7 @@
 //       return +n2.substring(0, n2.indexOf('.') + 3)
 //    }
 // -----------------------------------------------------
-//           Esercise 4 (from JS Practice)
+//           Exercise 4 (from JS Practice)
 //  Find the maximum negative elements from given array
 
 //  function maxNegative(arr){
@@ -42,3 +42,20 @@
 //      }
 //      return (arr2.length) ? Math.max(...arr2) : null;
 //    }
+// -----------------------------------------------------
+//              Exercise 5
+// https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08    
+//             Multiplication table
+
+//  multiplicationTable = function(size) {
+//   const arr1 = [];
+//   for(let i = 1; i <= size; i++){
+//        arr = [];
+//     for(let j = 1; j <= size; j++){
+//        arr.push(i * j)  ;
+//     }
+//        arr1.push(arr);
+//    }
+//   return arr1;
+// }   
+//   Output with (size = 3) [[1,2,3], [2,4,6], [3,6,9]];
