@@ -44,6 +44,24 @@
     // }
     // console.log(roundElementsOfArray([10.23, 34.89, 0.1, 4.45, 8.5]));  // [10, 35, 0, 4, 9]
 
+// Write a function that accepts two arguments and generates a sequence containing the integers from the first argument 
+// to the second  inclusive.
+
+//   *** Traditional way with for loop
+   // function generateIntegers(m, n) {
+   //   const arr = [];
+   //    for(let i = m; i <= n; i++){
+   //      arr.push(i);
+   //    }
+   //   return arr;
+   // }
+   // console.log(generateIntegers(2, 5));
+//   *** With Method map();
+   // function generateIntegers(m, n) {
+   //   return Array(n - m + 1).fill().map(() => m++);
+   // }
+   // console.log(generateIntegers(2, 5));
+
     //  *** How populate an array without Method push():
 // https://www.codewars.com/kata/56f69d9f9400f508fb000ba7  // Count the Monkeys!  
 // function monkeyCount(n) {
