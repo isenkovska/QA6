@@ -128,19 +128,6 @@ let user = {
   }
   
   //console.log(greet('dutch'))
-  // ----------------------------------------
-  
-  // Задание 13 Rock Paper Scissors
-  // Let's play! You have to return which player won! In case of a draw return Draw!.
-  // Examples:
-  // rps('scissors','paper') // Player 1 won!
-  // rps('scissors','rock') // Player 2 won!
-  // rps('paper','paper') // Draw!
-  
-  
-  function rps(p1, p2){
-    
-  }
-  //console.log(rps('Scissors', 'Paper'));
+ 
   
   
