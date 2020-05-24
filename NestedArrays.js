@@ -111,7 +111,6 @@
                     
 // function sumsInArray(arr){
 //   const arr1 = [];
- 
 //    for (let i = 0; i < arr.length;i++){
 //      let sum = 0;
 //      for (let j = 0; j < arr[i].length; j++){
@@ -121,7 +120,7 @@
 //    }
 //    return arr1;
 // }
-// console.log(sumsInArray([[1, 2, 3], [2, 2]])); 
+// console.log(sumsInArray([[1, 2, 3], [2, 2]]));    // [6, 4]
 // ----------------------
 // How we can call elements from nested arrays,example
 // const arr = [[1, 5 ,3], 4, 5, [6, 7, 8]];
