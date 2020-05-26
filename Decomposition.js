@@ -200,3 +200,37 @@
 // }
 
 //console.log(diffInArray([[1,2,3,4], [5,1,8,9], [7,0,4], [41,2,11]]));
+//-----------------------------------------------
+
+//  (Additional lecture for 05.25.2020)
+
+// function countOfVowels(str) {
+//   let count = 0;
+//   let vowels = 'aouieAOUIE';
+// //   str = str.toLowerCase();
+//  // console.log(str);
+//   for(let i = 0; i < str.length; i++){
+//     if(vowels.includes(str[i]))
+//        count++
+//   }
+//        return count;
+// }
+// //console.log(countOfVowels('I like javascript'));
+
+// function arrayOfCount(arr) {
+//   const res = [];
+//   for(let i = 0; i < arr.length; i++){
+//     res.push(countOfVowels(arr[i]))
+//   }
+//   return res;
+// }
+// //console.log(arrayOfCount(['abc', 'banana', 'mango', 'apple']));
+
+// //JavaScript language  is very discombabulating
+
+// function countOfVowelsInWordOfPhrase(string){
+//     let arr = string.split(' ')
+//     let vowels = 'aouieAOIUE'
+//   }
+//   console.log(countOfVowelsInWordOfPhrase('JavaScript language is very discombabulating'));
+  
