@@ -19,3 +19,12 @@
 //  console.log(positiveSum([1,-2,3,4,5]));  // output 13
 
 // ***  Exercise 2
+//  https://www.codewars.com/kata/57a2013acf1fa5bfc4000921
+//      Calculate average
+
+// function find_average(arr) {
+//     return arr.reduce ((acc, cur)=> acc + cur, 0) / arr.length;
+//  }
+// console.log(find_average([1, 2, 3])) // output 2
+
+// ***  Exercise 3
