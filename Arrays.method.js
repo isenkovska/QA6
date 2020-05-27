@@ -28,3 +28,22 @@
 // console.log(find_average([1, 2, 3])) // output 2
 
 // ***  Exercise 3
+//   Reverse elements from array
+//                         Solution 1 (with method )
+// function reverseElements(arr){
+//     return arr.reverse();
+//   }
+//   console.log(reverseElements([1, 5, 'a', 9, 0, 'apple', true])); // output [true, "apple", 0, 9, "a", 5, 1]
+
+//                         Solution 2 (with loop and temp.variable)
+// function reverseElements(arr){
+//     for(let i = 0; i < arr.length / 2; i++){
+//       let temp = arr[i];
+//        arr[i] = arr[arr.length - 1 - i];
+//        arr[arr.length - 1 - i] = temp;
+//     }
+//        return arr;
+//   }
+//   console.log(reverseElements([1, 5, 'a', 9, 0, 'apple', true])); // output [true, "apple", 0, 9, "a", 5, 1]
+
+// ***  Exercise 4
