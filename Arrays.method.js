@@ -59,3 +59,14 @@
 //     return arr;
 //   }
 //   console.log(returnVowels('I like JavaScript'));  // ["i", "i", "e", "a", "a", "i"]
+
+//   Exercise 5
+// (How works method Array.prototype.filter() ) Examples:
+
+// const arr = [-5, -3, 2, 5, 6, 8, 35];
+//   const arr2 = arr.filter((el, i) => i % 2 === 0);
+// console.log(arr2);   // output [-5, 2, 6, 35]
+
+// const arr = ['do', 'fox', 'code', 'grey', 'Joey'];
+//  const arr2 = arr.filter(el => el.length > 4);
+// console.log(arr2);  // output [] (there isn't any element with length more then 4)
