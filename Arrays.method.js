@@ -47,3 +47,15 @@
 //   console.log(reverseElements([1, 5, 'a', 9, 0, 'apple', true])); // output [true, "apple", 0, 9, "a", 5, 1]
 
 // ***  Exercise 4
+//     (return populated array with vowels from our string)   
+
+// function returnVowels(str){
+//     str = str.toLowerCase();
+//     const arr = [];
+//      let vow = 'aeiou';
+//        for(let i = 0; i < str.length; i++){
+//          if(vow.includes(str[i])) arr.push(str[i])
+//        }
+//     return arr;
+//   }
+//   console.log(returnVowels('I like JavaScript'));  // ["i", "i", "e", "a", "a", "i"]
