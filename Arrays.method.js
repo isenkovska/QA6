@@ -80,9 +80,27 @@
 //т.е. arr.indexOf(el) === arr.lastIndexOf(el). А если элемент имеет дубликат (а может и не один), 
 //то и индексы будут возвращены этими методами разные, т.е. arr.indexOf(el) !== arr.lastIndexOf(el).
 
+// **const arr = [-1, 2, 0, 2, 7, 7, 7, -1, 0, 8, 3, 4];
+//    const nonDuplicates = arr.filter(el => arr.indexOf(el) === arr.lastIndexOf(el));
+//      console.log(nonDuplicates);     // [8, 3, 4], т.к. мы ищем только уникальные элементы, 
+//                                     то индекс первого и последнего вхождения в массиве будет одним значением
+
+
+// **Вернуть массив дубликатов, при этом каждый дубликат должен быть представлен в единственном числе, 
+//  и в порядке, когда он появляется в массиве в последний раз.
 //  const arr = [-1, 2, 0, 2, 7, 7, 7, -1, 0, 8, 3, 4];
 //    const duplicates = arr.filter((el, i) => i !== arr.indexOf(el) && i === arr.lastIndexOf(el));
 //     console.log(duplicates); // [2, 7, -1, 0]
 // ** В последнем задании мы указываем, что индекс первого вхождения не должен быть равен индексу текущего элемента. 
 // Таким образом, мы исключаем уникальные элементы и оставляем только дубликаты. Далее из пары или более дубликатов выбираем то значение, 
 // которое имеет индекс последнего вхождения.
+
+// https://www.codewars.com/kata/58308360aeb69a460b0002b2 (Train to remove duplicates)
+//    function unique(arr) {
+//       return arr.filter((el, i) => arr.indexOf(el) === i);
+//    }
+
+//    function unique(arr) {          // give the same result, but this method works only with primitive data types
+//       return [...new Set(arr)]
+//    }
+//    console.log(unique([12,22,22,3]));
