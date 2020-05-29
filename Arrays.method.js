@@ -70,3 +70,19 @@
 // const arr = ['do', 'fox', 'code', 'grey', 'Joey'];
 //  const arr2 = arr.filter(el => el.length > 4);
 // console.log(arr2);  // output [] (there isn't any element with length more then 4)
+
+// *** Exercise 5
+//  ( To find Duplicates )
+// const arr = [-1, 2, 0, 2, 7, 7, 7, -1, 0, 8, 3, 4];
+//  const duplicates = arr.filter(el => arr.indexOf(el) !== arr.lastIndexOf(el));
+//    console.log(duplicates); // [-1, 2, 0, 2, 7, 7, 7, -1, 0]
+// ** Если элемент в массиве уникальный, arr.indexOf and arr.lastIndexOf вернут  один и тот же индекс, 
+//т.е. arr.indexOf(el) === arr.lastIndexOf(el). А если элемент имеет дубликат (а может и не один), 
+//то и индексы будут возвращены этими методами разные, т.е. arr.indexOf(el) !== arr.lastIndexOf(el).
+
+//  const arr = [-1, 2, 0, 2, 7, 7, 7, -1, 0, 8, 3, 4];
+//    const duplicates = arr.filter((el, i) => i !== arr.indexOf(el) && i === arr.lastIndexOf(el));
+//     console.log(duplicates); // [2, 7, -1, 0]
+// ** В последнем задании мы указываем, что индекс первого вхождения не должен быть равен индексу текущего элемента. 
+// Таким образом, мы исключаем уникальные элементы и оставляем только дубликаты. Далее из пары или более дубликатов выбираем то значение, 
+// которое имеет индекс последнего вхождения.
