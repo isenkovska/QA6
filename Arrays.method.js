@@ -104,3 +104,10 @@
 //       return [...new Set(arr)]
 //    }
 //    console.log(unique([12,22,22,3]));
+
+// *** Example how works indexOf()
+// let arr = [1, 4, 3, 5, 3]
+//   console.log(arr.filter((el, i) => {
+//   console.log('indexOf =' + arr.lastIndexOf(el));
+//   console.log('i=' + i);
+// }))  
