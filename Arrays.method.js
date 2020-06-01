@@ -46,6 +46,18 @@
 //   }
 //   console.log(reverseElements([1, 5, 'a', 9, 0, 'apple', true])); // output [true, "apple", 0, 9, "a", 5, 1]
 
+//   (the same temple just with While loop)
+//const arr = ['!', 'e', 'd', 'o', 'c'];
+// let i = 0;
+// let length = arr.length / 2;
+// while (i < length) {
+//   let temp = arr[i];
+//   arr[i] = arr[arr.length - 1 - i];
+//   arr[arr.length - 1 - i] = temp;
+//   i++;
+// }
+// console.log(arr); // output ["c", "o", "d", "e", "!"]
+
 // ***  Exercise 4
 //     (return populated array with vowels from our string)   
 
