@@ -156,3 +156,10 @@
 //    }
 //    console.log(findMissing([4, 3, 3, 61, 8, 8], [8, 61, 8, 3, 4]));
 //
+// *** a few examples using method sort()
+// --- The default sort order is ascending --- (4, 5, 8, 10)
+//  Return sorted array  ordered from shortest to longest stirngs
+//    function sortByLength (array) {
+//     return array.sort((a,b) => a.length - b.length);
+//     };
+//  console.log(sortByLength(["Beg", "Life", "I", "To"]))  // ["I", "To", "Beg", "Life"]
