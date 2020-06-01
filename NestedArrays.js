@@ -1,5 +1,5 @@
 // *** How to sort elements in given arrays with mixed numbers
-// Use Array.prototype.sort() with a custom compare function to do the descending sort first:
+// Use Array.prototype.sort() with a custom compare function to do the descending and ascending sort first:
 
 // console.log([4,-2,9,3,-4,12,4,-4,-9].sort((a, b) => b - a))
 //             [12,  9,  4,  4, 3,-2, -4, -4, -9]
@@ -29,6 +29,19 @@
 //  const letters = ['a', 'b', 'c'],
 //  const numeric = [1, 2, 3];
 //     console.log(letters.concat(numeric)); // output  ['a', 'b', 'c', 1, 2, 3]
+
+// ... concat() can be used for the flat output of two-dimensional or multidimensional arrays
+// const arr1=[1,2,3],arr2=[4,5,6];
+//  console.log(arr1.concat(arr2));                   // (It can use an array as parameter)
+//  console.log(arr1.concat(4,5,6));                  //  (also can use some values as parameters)
+//  console.log(arr1.concat([4],[5],[6]));            //  (also can use more than one array as parameters)
+//  console.log(arr1.concat(...arr2));                //  (use ... accept the value of an enumeration)
+//  console.log(arr1.concat(4).concat(5).concat(6));  //  (It can be used continuously)
+// Output in all examples will be the same [ 1, 2, 3, 4, 5, 6 ]
+
+// const arr=[[1,2],[3,4],[5,6]];
+//  let result=[].concat(...arr);
+// console.log(result); // output [1, 2, 3, 4, 5, 6]
 
 //  *** How to use Mathod map() in arrays:
     //( Ex. 1 )
