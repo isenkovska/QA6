@@ -159,6 +159,33 @@
 //    }
 //    let s = "five nine eight two four"; 
 //    console.log(averageStr(s));
-   
-   
+
+// https://www.codewars.com/kata/5656b6906de340bd1b0000ac
+// Take 2 strings s1 and s2 including only letters from ato z. Return a new sorted string, 
+// the longest possible, containing distinct letters
+
+// function longest(s1, s2) {
+//     let obj = {};
+//       for (let i = 0; i < s1.length; i++){
+//         if(obj[s1[i]]) {
+//            obj[s1[i]] ++;
+//          } else {
+//           obj[s1[i]] = 1;
+//          }
+//       }
+//       for(let i = 0; i < s2.length; i++){
+//        if(obj[s2[i]]) {
+//           obj[s2[i]]++;
+//         } else {
+//          obj[s2[i]] = 1;
+//         } 
+//       }
+//         let str = '';
+//         for(let keys in obj){
+//           str += keys;
+//          }
+//        str = str.split('').sort().join('');
+//      return str;
+//     }
+// console.log(longest("aretheyhere", "yestheyarehere")); //Output "aehrsty"
    
