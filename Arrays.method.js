@@ -108,6 +108,12 @@
 // которое имеет индекс последнего вхождения.
 
 // https://www.codewars.com/kata/58308360aeb69a460b0002b2 (Train to remove duplicates)
+
+// --- (One more example, how works method filter()) ---
+// const arr = ['bag', 'map', 'cod', 'log', 'fa'];
+// let res = arr.filter(el => el.includes('a')).join('_')
+// console.log(res);  //Output "bag_map_fa"
+
 //    function unique(arr) {
 //       return arr.filter((el, i) => arr.indexOf(el) === i);
 //    }
