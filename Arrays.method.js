@@ -129,3 +129,18 @@
 //   console.log('indexOf =' + arr.lastIndexOf(el));
 //   console.log('i=' + i);
 // }))  
+
+
+// *** Reverse words
+// https://www.codewars.com/kata/5259b20d6021e9e14c0010d4
+// function reverseWords(str) {
+//     const arr = [];
+//     let newStr = str.split(' ');
+//         for (let i = 0; i < newStr.length; i++){
+//           arr.push(newStr[i].split('').reverse().join(''))
+//         };
+//   return arr.join(' ');
+//   }
+// console.log(reverseWords("This is an example!" ))  // Output  "sihT si na !elpmaxe"
+
+// ***
