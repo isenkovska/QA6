@@ -27,6 +27,20 @@
 //  }
 // console.log(find_average([1, 2, 3])) // output 2
 
+// Another examples with reduce () method
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ***  Exercise 3
 //   Reverse elements from array
 //                         Solution 1 (with method )
@@ -143,4 +157,30 @@
 //   }
 // console.log(reverseWords("This is an example!" ))  // Output  "sihT si na !elpmaxe"
 
-// ***
+// *** Examples how works method splice()
+//   ---(Удалить 2 элемента по индексу 2.) ---
+// const arr = ['year', 'day', 'week', 'minute', 'second'];
+// let removed = arr.splice(2, 2); 
+// console.log(removed); // ["week", "minute"] массив удаленных элементов
+// console.log(arr); // ["year", "day", "second"] измененный исходный массив
+//   ---(Добавить элемент 'life' по индексу 3.) ---
+// const arr = ['year', 'day', 'week', 'minute', 'second'];
+// let removed = arr.splice(3, 0, 'life'); 
+// console.log(removed); // [], т.к. мы ничего не удаляли, возвращен пустой массив
+// console.log(arr); // ["year", "day", "week", "life", "minute", "second"], по индексу 3 теперь находится добавленный элемент
+//    ---(Удалить 2 элемента по индексу 1 и заменить их на '365' и '7'.) ---
+// const arr = ['year', 'day', 'week', 'minute', 'second'];
+// let removed = arr.splice(1, 2, '365', '7'); 
+// console.log(removed); // ["day", "week"] возвращен массив элементов, удаленных методом splice()
+// console.log(arr); // ["year", "365", "7", "minute", "second"], 2 элемента, начиная с индекса 1, заменены
+//    ---(Удалить все элементы, начиная с индекса 1.) ---
+// const arr = ['year', 'day', 'week', 'minute', 'second'];
+// let removed = arr.splice(1); 
+// console.log(removed); // ["day", "week", "minute", "second"], возвращен массив элементов, удаленных методом splice()
+// console.log(arr); // ["year"], измененный исходный массив
+//    ---(Удалить 2 элемента с конца массива.) ---
+// const arr = ['year', 'day', 'week', 'minute', 'second'];
+// let removed = arr.splice(-2); // индекс start задан отрицательным числом, которое значит смещение с конца массива 
+// console.log(removed); // ["minute", "second"], возвращен массив элементов, удаленных методом splice()
+// console.log(arr); // ["year", "day", "week"], измененный исходный массив
+
