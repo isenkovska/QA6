@@ -10,4 +10,19 @@
 //     }
 //     return res;
 // }
-// console.log(letters("Hello world!")); // output "world!"
+// console.log(letters("Hello world!")); // output "world!" 
+
+// *** Exercise 2
+// Return string, after inserting spaces between letters of string
+// function insertSpaces(str){
+//     let newStr = '';
+//        for (let i = 0; i < str.length  ; i++){
+//          if (i !== str.length-1){
+//              newStr += str[i] + ' ';
+//          } else if(i === str.length -1) {
+//            newStr += str[i];
+//          }
+//        }
+//        return newStr;
+// }
+// console.log(insertSpaces('abcd')); //Output 'a b c d'
