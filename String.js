@@ -26,3 +26,24 @@
 //        return newStr;
 // }
 // console.log(insertSpaces('abcd')); //Output 'a b c d'
+
+// *** Exercise 3
+//   https://www.codewars.com/kata/56b1f01c247c01db92000076
+//   Double Char
+// ---(with do while loop)
+// function doubleChar(str) {
+//     let newStr = '';
+//      let i = 0;
+//       do {
+//         newStr += str[i] + str[i];
+//         i++;
+//       }
+//       while(i < str.length)
+//      return newStr;
+//  }  
+// ---(with methods)
+// function doubleChar(str) {
+//     return str.split('').map(el => el + el).join('');
+// }
+//  console.log(doubleChar('abcd')); //Output 'aabbccaa'
+//
