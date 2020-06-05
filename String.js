@@ -46,4 +46,12 @@
 //     return str.split('').map(el => el + el).join('');
 // }
 //  console.log(doubleChar('abcd')); //Output 'aabbccaa'
+
+// *** Remove First and Last Character
+// function removeChar(str){
+//     return str.slice(1, -1);
+   
+// };
+// console.log(removeChar('abcd'));   //Output ('bc')
+
 //
