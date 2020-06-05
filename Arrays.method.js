@@ -143,7 +143,16 @@
 //   console.log('indexOf =' + arr.lastIndexOf(el));
 //   console.log('i=' + i);
 // }))  
-
+// -----------------------------------------
+// const arr = [100, 1, 100, 3, 100, 100, 6];
+// let elem = 100;
+// const indices = []; 
+// let i = arr.indexOf(elem);
+// while (i !== -1){
+//   indices.push(i);
+//   i = arr.indexOf(elem, i + 1);
+// }
+// console.log(indices); // [0, 2, 4, 5]
 
 // *** Reverse words
 // https://www.codewars.com/kata/5259b20d6021e9e14c0010d4
@@ -185,7 +194,6 @@
 // console.log(arr); // ["year", "day", "week"], измененный исходный массив
 
 
-
 // *** Examples how works method slice()
 // const arr = ['f', 's', 't', 'w', 'q'];
 // console.log(arr.slice()); // ["f", "s", "t", "w", "q"], индексы не переданы => мы получили новый массив – копию исходного
@@ -198,3 +206,4 @@
 // // начиная с индекса 0 до третьего элемента с конца массива, 
 // // но не включая его самого
 // console.log(arr.slice(6)); // [], индекс start имеет значение большее, чем длина массива  => возвращен пустой массив
+
