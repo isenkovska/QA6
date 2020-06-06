@@ -54,4 +54,38 @@
 // };
 // console.log(removeChar('abcd'));   //Output ('bc')
 
-//
+// *** Unique In Order
+// https://www.codewars.com/kata/54e6533c92449cc251001667
+
+// var uniqueInOrder=function(iter){
+//     const arr = [];
+//     for(let i = 0; i < iter.length; i++){
+//        if(iter[i] !== iter[i + 1]){
+//          arr.push(iter[i]);
+//         }
+//      }
+//    return arr;
+//  }
+// Example:
+// uniqueInOrder('ABBCcAD')     == ['A', 'B', 'C', 'c', 'A', 'D']
+// uniqueInOrder([1,2,2,3,3])   == [1,2,3]
+
+// *** Number-Star ladder
+// https://www.codewars.com/kata/5631213916d70a0979000066
+
+// function pattern(n){                              //    n = 4
+//     let output = '';                              //    1
+//     for (let i = 1; i <= n; i++){                //     1*2
+//        for(let j = 1; j <= i; j++){             //      1**3
+//          if (i === j ) {                       //       1***4  
+//            output+=j;
+//           } else {
+//            output+='*';
+//          }
+//         }
+//          if (i !== n){
+//            output += '\n1';
+//          } 
+//        }
+//     return output;
+//   }
