@@ -89,3 +89,27 @@
 //        }
 //     return output;
 //   }
+
+// *** Exercise
+//  --- Thinking & Testing : Something capitalized ---
+// https://www.codewars.com/kata/56d93f249c844788bc000002
+// function testit(s){
+//     s = s.split(' ');
+//     let a = ''
+//     const arr = [];
+//     for (let i = 0; i < s.length; i++){
+//        for (let j = 0; j < s[i].length ; j++ ){ 
+//           if (j === s[i].length-1) {
+//             a += s[i][j].toUpperCase();
+//             s[i][j] = s[i][j].toUpperCase();
+//           } else {
+//             a += s[i][j];
+//             arr.push();
+//           }
+//        }
+//       arr.push(a)
+//       a = '';
+//        }
+//      return (arr.join(' '));
+// }
+// Expected result ("a b c"), "A B C");  ('ab abc a'), 'aB abC A')
