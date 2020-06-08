@@ -112,4 +112,24 @@
 //        }
 //      return (arr.join(' '));
 // }
-// Expected result ("a b c"), "A B C");  ('ab abc a'), 'aB abC A')
+// Expected result ("a b c"), "A B C");  ('ab abc a'), 'aB abC A'
+
+// *** Exercise (method trim())
+//  Multiplication table for number
+//  https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce
+
+// function multiTable(n) {    
+//     let str = '';
+//      for(let i = 1; i <= 10; i++){
+//        str += `${i} * ${n} = ${i * n}${ i < 10 ? '\n' : '' }`;  // with using ternary operator
+//      }
+//     return str;
+// }
+// --------------------------------
+// function multiTable(n) {
+//     let str = '';
+//      for(let i = 1; i <= 10; i++){
+//        str += `${i} * ${n} = ${i * n}\n`;
+//      }
+//     return str.trim();  // trim() can remove not only single space, but empty string as well
+// }
