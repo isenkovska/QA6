@@ -133,4 +133,18 @@
 //      }
 //     return str.trim();  // trim() can remove not only single space, but empty string as well
 // }
-//
+
+//            *** Example, how works method padStart();
+// let str = 'Fish';
+// str.padStart(7, 'new');  // "newFish"
+// str.padStart(13, 'new'); // "newnewnewFish", если нужно, значение otherStr повторяется
+// str.padStart(8);         // "    Fish" применено значение по умолчанию для otherStr
+// str.padStart(3, 'new'); // "Fish" заданная длина меньше, чем длина str
+// str.padStart(6, 'new'); // "neFish" значение otherStr обрезано в соответствии с length
+//            *** Example, how works method padEnd();
+// let str = 'Dog';
+// str.padEnd(12, ' is black'); // "Dog is black"
+// str.padEnd(16, ' is black'); // "Dog is black is ", если нужно, значение otherStr повторяется
+// str.padEnd(7);               // "Dog    " применено значение по умолчанию для otherStr
+// str.padEnd(2, ' is black');  // "Dog", заданная длина меньше, чем длина str
+// str.padEnd(10, ' is black'); // "Dog is bla", значение otherStr обрезано в соответствии с length
