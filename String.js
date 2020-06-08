@@ -148,3 +148,10 @@
 // str.padEnd(7);               // "Dog    " применено значение по умолчанию для otherStr
 // str.padEnd(2, ' is black');  // "Dog", заданная длина меньше, чем длина str
 // str.padEnd(10, ' is black'); // "Dog is bla", значение otherStr обрезано в соответствии с length
+
+// *** Exercise with method repeat();
+// ---(Check if the password is valid(contains no less than 7 characters, or fill out with "$" to get right length)
+// function validPassword(password){
+//     return (password.length >= 7)? password: password + '$'.repeat(7 - password.length);
+//  }
+//  console.log(validPassword("Qwe"));  // Output "Qwe$$$$"
