@@ -70,6 +70,11 @@
 //     return str.replace(/[aeiouy]/ig, '');        (g - global, i - ignores the case of letters)
 // }
 //  console.log(removeVowels('I like JavaScript'));  // Output " lk JvScrpt"
+// +++++++++++++++++++++++++++++++++++
+// let str = '100,56,45,0';
+// console.log(str.replace(/,/g,'.'));   // Output "100.56.45.0"
+//              let str = '10a0,dv56,4abs5,0d';
+//              console.log(str.replace(/,/g,'.').replace(/[a-z]/g,''));   // Output "100.56.45.0"
 
 // *** Unique In Order
 // https://www.codewars.com/kata/54e6533c92449cc251001667
