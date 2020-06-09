@@ -67,7 +67,7 @@
 // (method slice() accepts two parameters(from, to (but not inclusive the exactly "to"))
 // -------(the solution with using regular expression)-----------------------------------
 // function removeVowels(str){
-//     return str.replace(/[aeiouyAEIOUY]/g, '');
+//     return str.replace(/[aeiouy]/ig, '');        (g - global, i - ignores the case of letters)
 // }
 //  console.log(removeVowels('I like JavaScript'));  // Output " lk JvScrpt"
 
