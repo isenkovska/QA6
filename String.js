@@ -53,6 +53,23 @@
    
 // };
 // console.log(removeChar('abcd'));   //Output ('bc')
+//---------------------------------------------------
+// function removeVowels(str){
+//     let vowels = "aeiuoyAEIUOY";
+//      for(let i = 0; i < str.length; i++){
+//        if (vowels.includes(str[i])){
+//          str = str.slice(0,i) + str.slice(i + 1);
+//        }
+//      }
+//     return str;
+//  }
+//  console.log(removeVowels('I like JavaScript'));  // Output " lk JvScrpt"
+// (method slice() accepts two parameters(from, to (but not inclusive the exactly "to"))
+// -------(the solution with using regular expression)-----------------------------------
+// function removeVowels(str){
+//     return str.replace(/[aeiouyAEIOUY]/g, '');
+// }
+//  console.log(removeVowels('I like JavaScript'));  // Output " lk JvScrpt"
 
 // *** Unique In Order
 // https://www.codewars.com/kata/54e6533c92449cc251001667
