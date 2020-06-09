@@ -53,6 +53,28 @@
    
 // };
 // console.log(removeChar('abcd'));   //Output ('bc')
+
+// Don't give me five!
+// https://www.codewars.com/kata/5813d19765d81c592200001a
+// function dontGiveMeFive(start, end){
+//     let c = 0;
+//     for(let i = start; i <= end; i++){
+//       if(!String(i).includes('5')) c++;
+//      }
+//   return c;
+// }
+// 4,17 -> 4,6,7,8,9,10,11,12,13,14,16,17 -> Result 12
+//----------------------------------------------------
+// *** Return all numbers, which include number(8) in it.
+// function luckyChineseNumber(numbers){
+//     const arr = [];
+//       for(let i = 0; i < numbers.length; i++){
+//         if(String(numbers[i]).includes('8')) arr.push(numbers[i]);
+//       }
+//   return arr ;
+// }
+// console.log(luckyChineseNumber([124, 18, 13, 8, 81, 182, 11]));  //Output [18, 8, 182]
+
 //---------------------------------------------------
 // function removeVowels(str){
 //     let vowels = "aeiuoyAEIUOY";
@@ -183,3 +205,14 @@
 // function billboard(name, price = 30){
 //     return name.repeat(price).length;      (--- instead traditional way with for loop)
 // } // Output  ("Jeong-Ho Aristotelis"), 600)
+
+// How works method indexOf();
+// Следующий пример устанавливает значение переменной count в количество вхождений "cherry" в строку str:
+// let str = 'Buy milk, cherry, butter, cherry, flour, cherry, sugar.';
+// let count = 0; 
+// let index = str.indexOf('cherry'); 
+// while(index !== -1){ 
+//   count++; 
+//   index = str.indexOf('cherry', index + 1); 
+// }
+// console.log(count); // Output 3
