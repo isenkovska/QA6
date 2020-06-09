@@ -155,3 +155,9 @@
 //     return (password.length >= 7)? password: password + '$'.repeat(7 - password.length);
 //  }
 //  console.log(validPassword("Qwe"));  // Output "Qwe$$$$"
+
+// *** Name on billboard
+// https://www.codewars.com/kata/570e8ec4127ad143660001fd
+// function billboard(name, price = 30){
+//     return name.repeat(price).length;      (--- instead traditional way with for loop)
+// } // Output  ("Jeong-Ho Aristotelis"), 600)
