@@ -216,3 +216,15 @@
 //   index = str.indexOf('cherry', index + 1); 
 // }
 // console.log(count); // Output 3
+
+// *** Mumbling
+// https://www.codewars.com/kata/5667e8f4e3f572a8f2000039
+// function accum(s) {
+//   return s
+//     .split('')
+//     .map((s, i) => s.toUpperCase() + s.toLowerCase().repeat(i))
+//     .join('-')
+// }
+// console.log(accum("RqaEzty"));
+// ("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+// ("cwAt") -> "C-Ww-Aaa-Tttt"
