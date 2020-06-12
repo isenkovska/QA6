@@ -228,3 +228,11 @@
 // console.log(accum("RqaEzty"));
 // ("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
 // ("cwAt") -> "C-Ww-Aaa-Tttt"
+
+//var str="Hello World!";
+// console.log(str.indexOf("world"))        (indexOf() and lastIndexOf() are case-sensative, so they will return -1)
+// console.log(str.lastIndexOf("world"))
+// console.log(str.search(/world/i))        (search() uses a regular exp. to ignore the case)
+// console.log(str.search(/word/i))         (search() as an indexOf() always return the first index ot otherwise -1 )
+//output:-1,-1,6,-1 
+
