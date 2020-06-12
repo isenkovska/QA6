@@ -98,6 +98,13 @@
 //              let str = '10a0,dv56,4abs5,0d';
 //              console.log(str.replace(/,/g,'.').replace(/[a-z]/g,''));   // Output "100.56.45.0"
 
+// *** Credit Card Mask
+// https://www.codewars.com/kata/5412509bd436bd33920011bc
+// function maskify(cc) {
+//     return cc.slice(0, -4).replace(/./g, '#') + cc.slice(-4);
+// }
+//   console.log(maskify("12111445")); // Output "####1445"
+
 // *** Unique In Order
 // https://www.codewars.com/kata/54e6533c92449cc251001667
 
