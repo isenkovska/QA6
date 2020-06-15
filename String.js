@@ -97,7 +97,15 @@
 // console.log(str.replace(/,/g,'.'));   // Output "100.56.45.0"
 //              let str = '10a0,dv56,4abs5,0d';
 //              console.log(str.replace(/,/g,'.').replace(/[a-z]/g,''));   // Output "100.56.45.0"
-
+// ++++++++++++++++++++++++++++++++++++
+// *** Correct the mistakes of the character recognition software
+// S is misinterpreted as 5
+// O is misinterpreted as 0
+// I is misinterpreted as 1
+// function correct(string){
+//     return string.replace(/0/g, 'O').replace(/1/g, 'I').replace(/5/g,'S');
+// }
+// console.log("51NGAP0RE"); //Output "SINGAPORE"
 // *** Credit Card Mask
 // https://www.codewars.com/kata/5412509bd436bd33920011bc
 // function maskify(cc) {
