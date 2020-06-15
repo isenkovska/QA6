@@ -243,3 +243,13 @@
 // console.log(str.search(/word/i))         (search() as an indexOf() always return the first index ot otherwise -1 )
 //output:-1,-1,6,-1 
 
+// Exercise with slice()
+// *** Tail Swap
+// https://www.codewars.com/kata/5868812b15f0057e05000001
+// function tailSwap(arr) {
+//     let index1 = arr[0].indexOf(':');
+//     let index2 = arr[1].indexOf(':');
+//       let str1 = arr[0].slice(0,index1) + arr[1].slice(index2);
+//       let str2 = arr[1].slice(0,index2) + arr[0].slice(index1);
+//       return [str1, str2];
+// }
