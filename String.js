@@ -261,3 +261,14 @@
 //       let str2 = arr[1].slice(0,index2) + arr[0].slice(index1);
 //       return [str1, str2];
 // }
+
+// *** Create Pnone Number 
+// ---(1 Solution)
+// https://www.codewars.com/kata/525f50e3b73515a6db000b83
+// createPhoneNumber=n=>'(###) ###-####'.replace(/#/g,()=>n.shift())
+//console.log(createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]));  // Output "(123) 456-7890"
+// ---(2 Solution)
+//function createPhoneNumber(numbers){
+//   numbers = numbers.join('');
+//     return `(${numbers.slice(0,3)}) ${numbers.slice(3,6)}-${numbers.slice(6)}`;
+// }
