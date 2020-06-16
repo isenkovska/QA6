@@ -269,6 +269,8 @@ let n = ar[0].length;
 str = str.replace(/!/g,'')
 console.log(str + '!'.repeat(n));
 
-
+// Exclamation marks series #2: Remove all exclamation marks from the end of sentence
+// const remove = s => s.replace(/!+$/g,'');
+// console.log(remove('Hi! Hi!!');  //Output 'Hi! Hi'
 
 
