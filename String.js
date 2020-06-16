@@ -106,6 +106,21 @@
 //     return string.replace(/0/g, 'O').replace(/1/g, 'I').replace(/5/g,'S');
 // }
 // console.log("51NGAP0RE"); //Output "SINGAPORE"
+// +++++++++++++++++++++++++++++++++++++++
+// function contamination(text, char){
+//     return text.replace(/./g,char) 
+// or
+//     return text.replace(/[^]/gi,char)
+//   }
+//   console.log(contamination("abc","z"));  // Output "zzz"
+// *** Polish alphabet
+// https://www.codewars.com/kata/57ab2d6072292dbf7c000039
+// function correctPolishLetters (string) {
+//     var dict = {'ą':'a','ć':'c','ę':'e','ł':'l','ń':'n','ó':'o','ś':'s','ź':'z','ż':'z'};
+//     return string.replace(/[ąćęłńóśźż]/g, match => dict[match]);
+//  }
+// console.log(correctPolishLetters("Jędrzej Błądziński")); //Output : "Jedrzej Bladzinski"
+
 // *** Credit Card Mask
 // https://www.codewars.com/kata/5412509bd436bd33920011bc
 // function maskify(cc) {
