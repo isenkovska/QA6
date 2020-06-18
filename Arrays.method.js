@@ -26,21 +26,6 @@
 //     return arr.reduce ((acc, cur)=> acc + cur, 0) / arr.length;
 //  }
 // console.log(find_average([1, 2, 3])) // output 2
-
-// Another examples with reduce () method
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ***  Exercise 3
 //   Reverse elements from array
 //                         Solution 1 (with method )
