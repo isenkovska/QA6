@@ -287,3 +287,75 @@
 //   numbers = numbers.join('');
 //     return `(${numbers.slice(0,3)}) ${numbers.slice(3,6)}-${numbers.slice(6)}`;
 // }
+//======================================================
+// *** Exercise from JS Practice
+//     Fing magic number
+// function magicNumber(date){
+//     let total = date.replace(/\D/g, '');
+//     total = total.split('');
+//       let a = 0;
+//    let i = 0;
+//     while(total.length > 1 || total[0] > 9){
+//      a = 0;
+//     total.map(el => a += Number(el));
+//       console.log(total);
+//       total = a > 9 && String(a).split('');
+//     }
+//      return a;
+//   }
+//   console.log(magicNumber('9/7/1902'));   // Output 1
+
+// *** Exercise from JS Practice
+//     Return the minimum valid number from given number
+// function changeDigitsOrder(num){
+//   num = num + '';
+//   num = num.split('').sort().join('')
+//   let str = '';
+//       for(let i = 0; i < num.length; i++){
+//          if(num[i] != '0' && str[0] === '0') 
+//            str = num[i] + str;
+//           else 
+//            str += num[i]
+//       }
+//      return Number(str);
+//  } 
+// console.log(changeDigitsOrder(1086));
+//1531 --> 1135
+// 1500 --> 1005
+
+//  *** Ecercise from JS
+//      Return all words from given string in an one column
+// function wordsInColumn(text){
+//     text =  text.split(' ');
+//     let str = '';
+//     let max = text[0].length;
+//     for (let i = 1; i < text.length; i++){
+//       if(text[i].length > max) max = text[i].length;
+//      }
+//         for (let j = 0; j < text.length; j++){
+//           if (j === text.length - 1) {
+//               str += ' '.repeat(max - text[j].length) + text[j];
+//           } else if (text[j].length !== max){ 
+//               str += ' '.repeat(max - text[j].length) + text[j] + '\n';
+//           } else {
+//               str += text[j] + '\n';
+//           }
+//         }
+//     return str;
+//  }
+//  console.log(wordsInColumn("Enjoy every moment"));
+
+// *** Exercise from JS Practice
+//     Return true or false, after deleting all spaces and make all letters in one case
+// function isPalindrome(str){
+//     str = str.replace(/ /g,'').toLowerCase();
+//     let str1 = str.replace(/ /g,'').toLowerCase().split('').reverse().join('');
+//     for (let i = 0; i < str.length; i++ ){
+//        if(str[i] !== str1[i]){
+//            return false;
+//          }
+//      } 
+//    return true;
+//  }
+//  console.log(isPalindrome("Was it a car or a cat I saw"));
+//================================================
