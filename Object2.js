@@ -201,4 +201,15 @@
 //    return arr;
 // }
 // console.log(numObj([118,117,120]);  //Output [{'118':'v'}, {'117':'u'}, {'120':'x'}];
+
+//  *** TV channels
+// https://www.codewars.com/kata/5836dce6966f8d1d43000007
+// function redarr(arr) {
+//     let arr2 = [...new Set(arr)].sort();
+//     let obj = {};    
+//       for (let i = 0; i < arr2.length; i++){
+//           obj[i] = arr2[i];
+//      }
+//     return obj;
+//   }
    
