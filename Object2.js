@@ -212,4 +212,24 @@
 //      }
 //     return obj;
 //   }
-   
+
+// *** Make a function that does arithmetic!
+// https://www.codewars.com/kata/583f158ea20cfcbeb400000a
+// --- (1 Solution with switch case)
+// function arithmetic(a, b, operator){
+//     switch (operator){
+//      case 'add': return a + b;
+//      case 'subtract': return a - b;
+//      case 'multiply':  return a * b;
+//      case 'divide': return a / b;
+//     }
+//   }
+// console.log(arithmetic(1, 2, "add"))  // should return 3
+
+// --- (2 solution with object )
+// const arithmetic = (a, b, operator) => ({
+//     'add'     : a + b,
+//     'subtract': a - b,
+//     'multiply': a * b,
+//     'divide'  : a / b
+//   }[operator]);
