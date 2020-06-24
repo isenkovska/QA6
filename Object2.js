@@ -233,3 +233,17 @@
 //     'multiply': a * b,
 //     'divide'  : a / b
 //   }[operator]);
+
+// *** Dictionary from two lists
+// https://www.codewars.com/kata/5533c2a50c4fea6832000101
+// function createDict(keys, values){
+//     console.log(keys,values)
+//       let obj = {};
+//       for (let i = 0,j = 0; i <keys.length, j <keys.length; i++,j++){
+//         if (values[j] === undefined) obj[keys[i]] = null;
+//          else
+//         obj[keys[i]] = values[j];
+//       }
+//       return obj;
+//     }
+// console.log(createDict([ 'a', 'b', 'c', 'd', 'e' ], [ 1, 2, 0, false, '' ])); //Output '{ a: 1, b: 2, c: 0, d: false, e: \'\' }'
