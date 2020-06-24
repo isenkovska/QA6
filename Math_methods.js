@@ -31,3 +31,6 @@ function hypotenuse(a, b) {
 // }
 // console.log(digits(457));
 //-----------------------------------------
+//let n = 15.6;
+//console.log(Math.trunc(n));
+//console.log(n|0);      More shorter record
