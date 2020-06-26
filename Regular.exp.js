@@ -273,4 +273,31 @@ console.log(str + '!'.repeat(n));
 // const remove = s => s.replace(/!+$/g,'');
 // console.log(remove('Hi! Hi!!');  //Output 'Hi! Hi'
 
-//
+// *** Validate my Password
+// https://www.codewars.com/kata/59c01248bf10a47bd1000046
+// ---(1 Solution with loops)
+// function validPass(password){
+//     if (password.length < 4 || password.length > 19) return 'INVALID';
+//      let str = '0123456789';
+//      let number = 0;
+//      let n = 0;
+//      let pas =  password.replace(/[\W]/g, '#')
+//        for (let i = 0; i < pas.length; i++){
+//           if(pas[i] === '#')   n++;
+//        }
+//         for (let i = 0; i < password.length; i++){
+//           if (str.includes(password[i])) number ++; 
+//         }
+//     return (n >= 1 || number <= 1) ? 'INVALID' : 'VALID';
+//     }
+// console.log(validPass('Username123'));  //Output 'VALID'
+
+// ---(2 Solution with using only reg.exp)
+// function validPass(password){
+//     if(/[0-9A-Za-z]{4,19}/.test(password) &&
+//        /\d+/.test(password) &&
+//        !/[!*]/.test(password))
+//     return 'VALID';
+//      else return 'INVALID';
+//   }
+// console.log(validPass('Username'));   //Output 'INVALID'
