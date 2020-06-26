@@ -122,6 +122,10 @@
 //    }
 //    console.log(unique([12,22,22,3]));
 
+// let arr = ['orange', 'banana', 'apple', 'peach','lime'];
+//  let arr1 = arr.filter(el => 'aeioyu'.includes(el[0]));
+//   console.log(arr1);     //Output ["orange", "apple"];
+
 // *** Example how works indexOf()
 // let arr = [1, 4, 3, 5, 3]
 //   console.log(arr.filter((el, i) => {
