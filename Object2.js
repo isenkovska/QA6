@@ -247,3 +247,17 @@
 //       return obj;
 //     }
 // console.log(createDict([ 'a', 'b', 'c', 'd', 'e' ], [ 1, 2, 0, false, '' ])); //Output '{ a: 1, b: 2, c: 0, d: false, e: \'\' }'
+
+// *** What is my name score? #1
+// https://www.codewars.com/kata/576a29ab726f4bba4b000bb1
+// function nameScore(name){
+//     let name1 = name.toUpperCase();
+//       let result = 0;
+//          for(let i = 0; i < name1.length; i++){
+//            for(let key in alpha){
+//             if(key.includes(name1[i])) result += alpha[key];  
+//            }
+//          }
+//       return {[name]:result};
+//   }
+// console.log(nameScore('Mary Jane'));  Output {"Mary Jane":20};
