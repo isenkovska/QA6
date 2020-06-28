@@ -261,3 +261,33 @@
 //       return {[name]:result};
 //   }
 // console.log(nameScore('Mary Jane'));  Output {"Mary Jane":20};
+
+// Alternating between three values
+// https://www.codewars.com/kata/596776fbb4f24d0d82000141
+// ---(1 Solution)
+// function f(x, cc) {                                             // f(a) = b
+//     for (let keys in cc){                                       // f(b) = c
+//       if(cc[keys] === x){                                       // f(c) = a
+//        if (keys === 'a')  return cc['b'];
+//        if (keys === 'b')  return cc['c'];
+//        if (keys === 'c')  return cc['a'];
+//       } 
+//     }
+//   }
+// --- (2 Solution with switching key value);
+// function f(x, cc) { 
+//     let key ;
+//     for (let keys in cc){
+//       if( cc[keys] === x ) key = keys ;
+//     }
+//         cc.a = cc.a + cc.b;   
+//         cc.b = cc.a - cc.b;    
+//          cc.a = cc.a - cc.b;  
+//         cc.c = cc.c + cc.b;  
+//          cc.b = cc.c - cc.b;  
+//          cc.c = cc.c - cc.b;  
+//   return cc[key];
+//  }
+// console.log( f( 3, { a:3, b:4, c:5 } );    //Output  4
+//lecture for 05.30.20
+
