@@ -289,5 +289,25 @@
 //   return cc[key];
 //  }
 // console.log( f( 3, { a:3, b:4, c:5 } );    //Output  4
+
+// *** Permute a Palindrome
+// https://www.codewars.com/kata/58ae6ae22c3aaafc58000079
+// function permuteAPalindrome (input) { 
+//     if (!input.length || input.length === 1) return true;
+//      const obj = {};
+//      let count = 0;
+//        for (let i = 0; i < input.length; i++){
+//         if(obj[input[i]]) obj[input[i]] ++;
+//          else obj[input[i]] = 1;
+//        }
+//          for(let keys in obj){
+//           if(obj[keys] % 2 !== 0) count++;
+//          }
+//     return (count === 1 || count === 0);
+//    }
+//console.log(permuteAPalindrome ("baabcd"));  //Output false
+                               //("aab") ---> true
+// if we have Palindrome we can have  only one odd letter in the middle or zero.
+
 //lecture for 05.30.20
 
