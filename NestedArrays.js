@@ -40,8 +40,9 @@
 // Output in all examples will be the same [ 1, 2, 3, 4, 5, 6 ]
 
 // const arr=[[1,2],[3,4],[5,6]];
-//  let result=[].concat(...arr);
+//  let result=[].concat(...arr);      // or arr.flat() (but supports only from Node.js 11.0.0)
 // console.log(result); // output [1, 2, 3, 4, 5, 6]
+
 
 //  *** How to use Mathod map() in arrays:
     //( Ex. 1 )
