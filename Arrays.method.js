@@ -137,7 +137,7 @@
 // let elem = 100;
 // const indices = []; 
 // let i = arr.indexOf(elem);
-// while (i !== -1){
+// while (i !== -1){    
 //   indices.push(i);
 //   i = arr.indexOf(elem, i + 1);
 // }
@@ -196,4 +196,19 @@
 // // но не включая его самого
 // console.log(arr.slice(6)); // [], индекс start имеет значение большее, чем длина массива  => возвращен пустой массив
 
-//
+// *** If we need to compare two arrays
+// --- (1 Solution) 
+//if we know, that array contains the same type of date(foe ex. "string" or "number").
+// We can first do sort and after transform into a string and then compare them
+//    const arr = [1, 2, 3, 4];
+//    const arr1 = [4, 3, 2, 1];
+//     console.log(arr.sort().toString() === arr1.sort().toString());   // return true
+
+// ---(2 Solution) But if we have mixed elements, the first solution wouldn't be correct, because for ex.('1' !== 1)
+// Then we shoud use:
+//    const arr = [1, 2, 3, 4];
+//    const arr1 = [4, 3, 2, '1'];
+// console.log(JSON.stringify(arr.sort()) === JSON.stringify(arr1.sort()));  // Return false
+
+
+
