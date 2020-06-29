@@ -324,5 +324,21 @@
 //     }
 // console.log(solve('axyzxyz'));   Output 'x';
 //                    'aabccc' ---> 'c'     
+
+// Remove duplicates from list
+// https://www.codewars.com/kata/57a5b0dfcf1fa526bb000118
+// function distinct(a) {
+//     const obj = {};
+//     const arr = [];
+//       for(let i = 0; i < a.length; i++){
+//        if(!obj[a[i]]) {
+//          obj[a[i]] = 1;
+//          arr.push(a[i])
+//         }
+//       }
+//      return arr;
+//     }
+// console.log(distinct([1,1,2]));   //Output [1, 2]
+
 //lecture for 05.30.20
 
