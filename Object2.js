@@ -340,5 +340,23 @@
 //     }
 // console.log(distinct([1,1,2]));   //Output [1, 2]
 
+// *** (last ex. from JS Practice)
+// --- return the most often repeatable number, if there're a few qual then return all of them
+// function mostFrequentElement(arr){
+//     if(!arr.length)  return [];
+//      const num = {};
+//      let arr1 = [];
+//       for(let i = 0; i< arr.length; i++){
+//         if(num[arr[i]]) num[arr[i]]++;
+//          else num[arr[i]] = 1;
+//        }
+//      let max = Math.max(...Object.values(num));
+//      for(let keys in num){
+//        if(num[keys] >= max) arr1.push(+keys)
+//      }
+//     return arr1;
+//    }
+//    console.log(mostFrequentElement([0,3,1,4,7,6,7,4,5,2,3,5]));    // Output [3, 4, 5, 7]
+
 //lecture for 05.30.20
 
