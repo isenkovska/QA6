@@ -210,5 +210,19 @@
 //    const arr1 = [4, 3, 2, '1'];
 // console.log(JSON.stringify(arr.sort()) === JSON.stringify(arr1.sort()));  // Return false
 
+// *** How works some ();
+//   ---В цьому прикладі виклик some() перевіряє, чи містить масив числа більші від 10:
+// function isBiggerThan10(element, index, array) {
+//     return element > 10;
+//   }
+//   [2, 5, 8, 1, 4].some(isBiggerThan10);   // вертає false
+//   [12, 5, 8, 1, 4].some(isBiggerThan10);  // вертає true
+//    ---Те саме, що і в попередньому прикладі, але із синтаксисом стрілкової функції:
+// [2, 5, 8, 1, 4].some(x => x > 10);   // вертає false
+// [12, 5, 8, 1, 4].some(x => x > 10);  // вертає true
 
-
+   //const array = [1, 2, 3, 4, 5];
+   // checks whether an element is even
+   //const even = (element) => element % 2 === 0;
+   //console.log(array.some(even));
+   // expected output: true
