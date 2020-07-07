@@ -1,6 +1,14 @@
 // https://docs.google.com/spreadsheets/d/19keEqFh_Z08_OgFpvBu7UWrmEGT5EYdqYaKSjhe2wM4/edit#gid=1948005648 Julia's test cases
 // https://github.com/jstepiko/CCA  
-// https://docs.google.com/document/d/10YxY2G35iNST-Ht1qWY-DWYRUiZtWlR4mFoE-cNZrjM/edit#heading=h.7zan7ymq7rce
+// https://docs.google.com/document/d/10YxY2G35iNST-Ht1qWY-DWYRUiZtWlR4mFoE-cNZrjM/edit#heading=h.7zan7ymq7rce/
+// https://likejean.github.io/homework-5/
+
+
+//https://github.com/st-newyork/wdio-boilerplate
+// https://github.com/st-newyork/QA6_POM
+// https://www.istqb.org/     --> QA course
+
+
 
 // *** 1 Exercise
 // We have two separate arrays, fill out with numbers,  and we need to make concatenation and descending sort .
