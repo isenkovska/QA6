@@ -300,4 +300,14 @@ console.log(str + '!'.repeat(n));
 //     return 'VALID';
 //      else return 'INVALID';
 //   }
-// console.log(validPass('Username'));   //Output 'INVALID'
+// console.log(validPass('Username'));   //Output 'INVALID'git 
+
+// How to use function inside replace method as the second parameter
+// The Office III - Broken Photocopier
+// https://www.codewars.com/kata/57ed56657b45ef922300002b
+// function broken(x){
+//     return  x.replace(/[01]/g, (el) => {
+//       return  el === '0' ? '1' : '0';       
+//     })
+// }
+//console.log(broken"100010"));  // "011101"
