@@ -311,3 +311,21 @@ console.log(str + '!'.repeat(n));
 //     })
 // }
 //console.log(broken"100010"));  // "011101"
+
+// altERnaTIng cAsE <=> ALTerNAtiNG CaSe
+// https://www.codewars.com/kata/56efc695740d30f963000557
+// --- 1 Solution with loop 
+// String.prototype.toAlternatingCase = function () {
+//     let str = '';
+//       for(let i = 0; i < this.length; i++ ){
+//         if(this[i] === this[i].toLowerCase())  str += this[i].toUpperCase();
+//           else str += this[i].toLowerCase()
+//       }
+//     return str;
+// }
+// Output "hello world" ---> "HELLO WORLD"
+
+// --- 2 Solution with reg.exp
+// String.prototype.toAlternatingCase = function () {
+//     return this.replace(/[A-Za-z]/g, x => x > "Z" ? x.toUpperCase() : x.toLowerCase()) 
+//   }
