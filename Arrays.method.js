@@ -229,3 +229,16 @@
 
 // *** clean up after your dog
 // https://www.codewars.com/kata/57faa6ff9610ce181b000028
+
+
+// --- Array.from() ---
+    //console.log(Array.from('foo'));
+// expected output: Array ["f", "o", "o"]
+    //console.log(Array.from([1, 2, 3], x => x + x));
+// expected output: Array [2, 4, 6]
+
+// ***Return the first M multiples of N
+// https://www.codewars.com/kata/593c9175933500f33400003e/train/javascript
+// function multiples(m, n){
+//   return Array.from(new Array(m), (x, i) => (i + 1) * n);
+// }
