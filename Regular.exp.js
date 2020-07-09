@@ -329,3 +329,9 @@ console.log(str + '!'.repeat(n));
 // String.prototype.toAlternatingCase = function () {
 //     return this.replace(/[A-Za-z]/g, x => x > "Z" ? x.toUpperCase() : x.toLowerCase()) 
 //   }
+
+// *** All Star Code Challenge #18
+// https://www.codewars.com/kata/5865918c6b569962950002a1/train/javascript
+// function strCount(str, letter){  
+//   return str.replace(new RegExp('[^'+letter+']','g'),'').length;
+// }
