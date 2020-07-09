@@ -2,7 +2,8 @@
 // https://github.com/jstepiko/CCA  
 // https://docs.google.com/document/d/10YxY2G35iNST-Ht1qWY-DWYRUiZtWlR4mFoE-cNZrjM/edit#heading=h.7zan7ymq7rce/
 // https://likejean.github.io/homework-5/
-
+// https://documenter.getpostman.com/view/11449882/SzzobG7n?version=latest#7a4f91e6-b078-4bc2-877b-8c2abb9d20c2   --> API documentation
+// https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/http_basics.html  --> HTTP
 
 //https://github.com/st-newyork/wdio-boilerplate
 // https://github.com/st-newyork/QA6_POM
