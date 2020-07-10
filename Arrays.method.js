@@ -242,3 +242,27 @@
 // function multiples(m, n){
 //   return Array.from(new Array(m), (x, i) => (i + 1) * n);
 // }
+
+//  **** Input: nums = [2,5,1,3,4,7], n = 3
+// Output: [2,3,5,4,1,7] 
+// Explanation: Since x1=2, x2=5, x3=1, y1=3, y2=4, y3=7 then the answer is [2,3,5,4,1,7]
+
+// function nums(arr){
+//   let newArr = [];
+//   for(let i = 0; i < arr.length / 2; i++){
+//       newArr.push(arr[i], arr[arr.length / 2 + i]);
+//     }
+// return newArr ;
+// }
+// console.log(nums([2,5,1,3,4,7]));
+//---------------------------------------
+// function nums(arr){
+//   let newArr = [];
+//   let x = arr.slice(0,arr.length / 2);
+//   let y = arr.slice(arr.length / 2);
+//     for(let i = 0; i < x.length; i++){
+//       newArr.push(x[i],y[i]);
+//     }
+// return newArr ;
+// }
+// console.log(nums([2,5,1,3,4,7]));
