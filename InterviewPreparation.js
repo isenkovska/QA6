@@ -8,6 +8,12 @@
 //https://github.com/st-newyork/wdio-boilerplate
 // https://github.com/st-newyork/QA6_POM
 // https://www.istqb.org/     --> QA course
+//  https://stage.localcoding.us/  --> Stage Local coding
+
+// Codewars:
+// https://www.codewars.com/kata/563d59dd8e47a5ed220000ba/train/javascript
+// https://www.codewars.com/kata/5a63948acadebff56f000018/train/javascript
+
 
 
 
