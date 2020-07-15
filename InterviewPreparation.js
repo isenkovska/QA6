@@ -10,6 +10,11 @@
 // https://www.istqb.org/     --> QA course
 //  https://stage.localcoding.us/  --> Stage Local coding
 
+// Negative and positive testing
+// http://okiseleva.blogspot.com/2014/02/blog-post_10.html
+// https://training.qatestlab.com/blog/technical-articles/positive-negative-testing/
+
+
 // Codewars:
 // https://www.codewars.com/kata/563d59dd8e47a5ed220000ba/train/javascript
 // https://www.codewars.com/kata/5a63948acadebff56f000018/train/javascript
