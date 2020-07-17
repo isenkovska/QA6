@@ -19,7 +19,6 @@
 // https://www.codewars.com/kata/563d59dd8e47a5ed220000ba/train/javascript
 // https://www.codewars.com/kata/5a63948acadebff56f000018/train/javascript
 
-//
 
 
 // *** 1 Exercise
@@ -59,5 +58,5 @@
        //  bubbleSort(arr);
        //  console.log(bubbleSort(arr));      //Output [30, 25, 20, 8, 7, 5, 5, 3, 2]
        
-     
+     //
   
