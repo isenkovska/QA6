@@ -9,6 +9,10 @@
 // https://github.com/st-newyork/QA6_POM
 // https://www.istqb.org/     --> QA course
 //  https://stage.localcoding.us/  --> Stage Local coding
+// https://github.com/rinsal/QA6_Local_Coding/pull/27   - Rinat Github
+//  https://docs.google.com/spreadsheets/d/18-eU61RTCAwcztm3NzV1IvFdxeFyAFuCyKG1mmThALs/edit?usp=sharing    --> POM template
+
+//https://us04web.zoom.us/j/2727464248?pwd=bkxGUU5IdFRFdVBuVlBodlRTRFRrUT09   --> ZOM (Personal meeting url)
 
 // Negative and positive testing
 // http://okiseleva.blogspot.com/2014/02/blog-post_10.html
