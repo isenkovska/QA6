@@ -15,3 +15,4 @@
   
   git clone https://github.com/Slyvochka/QA6.git
   
+  git stash go back to a clean working directory
