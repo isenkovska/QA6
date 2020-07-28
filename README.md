@@ -9,6 +9,8 @@
   
   git push 2
   
+  git branch nameOfBranch(num. task in Jira)
+  
   git checkout -b nameOfBranch
   
   git pull - update latest code
