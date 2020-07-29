@@ -14,6 +14,11 @@
 
 //https://us04web.zoom.us/j/2727464248?pwd=bkxGUU5IdFRFdVBuVlBodlRTRFRrUT09   --> ZOM (Personal meeting url)
 
+// https://docs.google.com/spreadsheets/d/1UCIVibP8IkrA8pBlxMrIL1L-4PJsRqO6v5SCKq3HboY/edit#gid=1723043706    --> Local Coding_20605 (test cases)
+
+// https://software-testing.ru/library/testing/testing-automation/3393-continuous-integration?fbclid=IwAR0vVjYiLeVHzQzxcVCTeRcGUnIM9-a78ho0K-JLVqlwQTlrhmvHjgU-2XA     --> CI testing
+
+
 // Negative and positive testing
 // http://okiseleva.blogspot.com/2014/02/blog-post_10.html
 // https://training.qatestlab.com/blog/technical-articles/positive-negative-testing/
@@ -62,5 +67,5 @@
        //  bubbleSort(arr);
        //  console.log(bubbleSort(arr));      //Output [30, 25, 20, 8, 7, 5, 5, 3, 2]
        
-     //
+     
   
