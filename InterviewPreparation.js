@@ -24,6 +24,8 @@
 // https://training.qatestlab.com/blog/technical-articles/positive-negative-testing/
 
 
+// https://rb.ru/story/agile-scrum-kanban/   --> additional inf. about agile and  scrum 
+
 // Codewars:
 // https://www.codewars.com/kata/563d59dd8e47a5ed220000ba/train/javascript
 // https://www.codewars.com/kata/5a63948acadebff56f000018/train/javascript
