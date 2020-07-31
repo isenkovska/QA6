@@ -41,6 +41,7 @@
 
 // const arr=[[1,2],[3,4],[5,6]];
 //  let result=[].concat(...arr);      // or arr.flat() (but supports only from Node.js 11.0.0)
+                                       // or (arr.toString()).split(',') // Output("1, 2, 3, 4, 5, 6") ['1', '2', '3', '4', '5', '6']
 // console.log(result); // output [1, 2, 3, 4, 5, 6]
 
 
