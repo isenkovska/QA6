@@ -9,9 +9,12 @@
   
   git push 2
   
+  git branch nameOfBranch(num. task in Jira)
+  
   git checkout -b nameOfBranch
   
   git pull - update latest code
   
   git clone https://github.com/Slyvochka/QA6.git
   
+  git stash go back to a clean working directory
