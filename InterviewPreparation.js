@@ -23,7 +23,7 @@
 // http://okiseleva.blogspot.com/2014/02/blog-post_10.html
 // https://training.qatestlab.com/blog/technical-articles/positive-negative-testing/
 
-//https://www.youtube.com/watch?v=8aGhZQkoFbQ&list=PL4SfyCkRAwT7LQmbaxcVWRTaQITtCCAwZ  JavaScript even work!?
+//https://www.youtube.com/watch?v=8aGhZQkoFbQ&list=PL4SfyCkRAwT7LQmbaxcVWRTaQITtCCAwZ --> JavaScript even work!?
 
 // https://rb.ru/story/agile-scrum-kanban/   --> additional inf. about agile and  scrum 
 
