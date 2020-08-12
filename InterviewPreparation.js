@@ -27,6 +27,8 @@
 
 // https://rb.ru/story/agile-scrum-kanban/   --> additional inf. about agile and  scrum 
 
+
+
 // https://github.com/Marak/faker.js/blob/master/Readme.md
 
 // Codewars:
