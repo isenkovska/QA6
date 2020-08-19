@@ -34,6 +34,9 @@
 
 // https://github.com/Marak/faker.js/blob/master/Readme.md
 
+// https://www.youtube.com/watch?v=HXV3zeQKqGY&t=156s    --> SQL course
+
+
 // Codewars:
 // https://www.codewars.com/kata/563d59dd8e47a5ed220000ba/train/javascript
 // https://www.codewars.com/kata/5a63948acadebff56f000018/train/javascript
