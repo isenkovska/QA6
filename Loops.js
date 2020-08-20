@@ -3,9 +3,9 @@
 // возвращает их в виде массива [element, element]
 // Если таких пар несколько, вернуть первую из них 
 //  function equalElementsInArray(arr){
- 
+
+// *** Solution with two loops
 //    for (let i = 0; i < arr.length - 1; i++){
-     
 //      for (let j = i+1; j < arr.length; j++){
 //        if (arr[i] === arr[j])
 //          return [arr[i], arr[j]];
@@ -13,8 +13,28 @@
 //     }
 //   return (arr.length === 0)? []:'All elements are different';
 //  }
-// console.log(equalElementsInArray([5, 1, 2, 25, 12,  50, 9,  15, 6])); 
+// //console.log(equalElementsInArray([5, 1, 2, 25, 12,  50, 9,  15, 6])); 
 // //console.log(equalElementsInArray([0, 1, 2, 8, 3, 14, 7, 3, 8]));
+
+// *** Solution with one for loop and sort()
+// arr.sort((a,b) => a - b);
+// for(let i = 0; i < arr.length; i++){
+//   if(arr[i] === arr[i + 1]){
+//    return [ arr[i], arr[i] ]; 
+//   }
+// }
+// return false;
+// }
+
+// *** Solution  with filter() and indexOf(), lastIndexOf()
+// const a = arr.filter(el => {
+//     if(arr.indexOf(el) !== arr.lastIndexOf(el)) {
+//       return el; 
+//     }
+//   });
+// return a.length ? a : false;
+// }  
+// console.log(equalElementsInArray([2,1,6,5,9,4]));
 //-------------------------------------------------------------------
 //2 Напишите функцию, которая принимает массив чисел arr
 // и возвращает все пары одинаковых элементов в виде двумерного массива
