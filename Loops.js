@@ -97,6 +97,8 @@
 
 // *** Solution 2
 // function fibonacci(n){
+//     if (n === 0) return [];
+//     if (n === 1) return [0];
 //     let arr = [0,1];             
 //       for(let i = 0; i < n - 2; i++){             
 //         arr.push(arr[i] + arr[ i + 1]);     
