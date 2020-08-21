@@ -35,7 +35,24 @@
 // return a.length ? a : false;
 // }  
 // console.log(equalElementsInArray([2,1,6,5,9,4]));
+//----------------------------------------------------------------------------
+// *** https://www.codewars.com/kata/558dd9a1b3f79dc88e000001/train/javascript
+//You should return the duplicate value as a single integer.
+// const findDup = arr => arr.filter((v, i) => arr.indexOf(v) != i)[0];
+// console.log([1,2,2,3]), 2)
 //-------------------------------------------------------------------
+// *** https://www.codewars.com/kata/5b39e91ee7a2c103300018b3/train/javascript
+// Your task is to remove all consecutive duplicate words from string, leaving only first words entries.
+// const removeConsecutiveDuplicates = s => { arr = s.split(' ');
+//   let unique = [];
+//   for(let i = 0; i < arr.length; i++){
+//     if(arr[i] !== arr[i + 1]){
+//       unique.push(arr[i]);
+//     }
+//   }
+//   return unique.join(' ');
+//}; 
+// console.log(s('alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta')); // Output 'alpha beta gamma delta alpha beta gamma delta'
 //2 Напишите функцию, которая принимает массив чисел arr
 // и возвращает все пары одинаковых элементов в виде двумерного массива
 // Например, const arr = [2, 1, 5, 9, 6, 4, 1, 5, 6]
