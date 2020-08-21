@@ -53,15 +53,16 @@
 //   return unique.join(' ');
 //}; 
 // console.log(s('alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta')); // Output 'alpha beta gamma delta alpha beta gamma delta'
+// --------------------------------------------------------------------
 //2 Напишите функцию, которая принимает массив чисел arr
 // и возвращает все пары одинаковых элементов в виде двумерного массива
 // Например, const arr = [2, 1, 5, 9, 6, 4, 1, 5, 6]
 // Результат:            [[1, 1], [5, 5], [6, 6]]
 
+// *** Solution 1
 //  function equalElementsPairs(arr){
 //    let res = [];
 //    for (let i = 0; i < arr.length - 1;i++){
-     
 //      for(let j = i + 1; j < arr.length;j++){
 //        if(arr[i] === arr[j])
 //          res.push([arr[i],arr[j]]);
@@ -70,10 +71,14 @@
 //    return res;  // or res.length // output 3
 // }
 //  console.log(equalElementsPairs([2, 1, 5, 9, 6, 4, 1, 5, 6])); 
-//     function count (a,b){
-//       return [a +b, a - b];
+
+// *** Solution 2
+// for (let i = 0; i < (arr.sort()).length; i++){
+//     if(arr[i] === arr[i + 1]) {
+//       duplicate.push([arr[i], arr[i + 1]])
 //     }
-// console.log(count(10,5));
+//   }
+//  return duplicate;
 //------------------------------------------------------------------
 // 3. Последовательность Фибоначчи: 0,1,1,2,3,5,8,13,21,34,...
 // Создайте функцию, которая получает число n и 
