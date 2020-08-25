@@ -118,9 +118,8 @@
 //      for (let i = 2; i < n; i++){       
 //       arr.push(arr[i-2] + arr[i - 1]);   
 //        }
-//     return arr[n-1];
+//     return arr[n-1];  or return arr[arr.length - 1];
 //   }
-
 // console.log(nthFibonacci(10)); // 34
 //  console.log(nthFibonacci(5)); //  3
 
