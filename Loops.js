@@ -112,31 +112,32 @@
 //  Например, n = 4 ---> результат: 2
 
 //   function nthFibonacci(n){
-//    // if (n === 0) return undefined;
-//    // if (n === 1) return 0;
+//    // if (n === 0) return undefined;   
+//    // if (n === 1) return 0;                not necessary lines, since we still got undefined and 0 by default.
 //    const arr = [0, 1];
 //      for (let i = 2; i < n; i++){       
 //       arr.push(arr[i-2] + arr[i - 1]);   
 //        }
-//     return arr[n-1];  or return arr[arr.length - 1];
+//     return arr[n-1];  
 //   }
 // console.log(nthFibonacci(10)); // 34
 //  console.log(nthFibonacci(5)); //  3
-
+// *****************************************************
 // Эти задачи в codewars:
-//https://www.codewars.com/kata/522551eee9abb932420004a0
-//https://www.codewars.com/kata/52549d3e19453df56f0000fe
+// https://www.codewars.com/kata/522551eee9abb932420004a0
+// https://www.codewars.com/kata/52549d3e19453df56f0000fe
 
+// *****************************************************
 // --------------------------------------------------
 // 5. Получить n -ое число последовательности Фибоначчи : 0,1,1,2,3,5,8,...
 // без создания массива. Например, n = 5 ---> результат: 3
+// *** Solution without array
 //  function nthFib(n){       // n = 1 --> 0 n = 2 --> 1
 //    if (n <= 2) return n -1;
 //     let f0 = 0;             // 0
 //     let f1 = 1;             // 1
  //    let f2;                 // -
 //    let i = 2;               // 2
-
 //      while (i < n){         // 2<4        3<4          4<4
 //        f2 = f0 + f1; //1    // 0+1=1      1+1=2
 //        f0 = f1;             // 1           1
@@ -145,7 +146,6 @@
 //      }
 //    return f2;
 //  }
-
 //  console.log(nthFib(4));    // 2
 // if we want to put i = 3 then shoud be i <= 3
 // --------------------------------------------------
@@ -155,23 +155,28 @@
 // Фиббоначчи и возвращает n-ый по счету символ этой строки(не символ с индексом n)
 // Например, 5-ый символ - это "3"
 // function fibonacciString(n){
-
- //       while (i < n){        
-//        f2 = f0 + f1;   + add this to string
-//        f0 = f1;             
-//        f1 = f2;          
-//        i++;                 
-//      }
+    // let str = '01';
+    // if (n <= 2) return n - 1;
+    //   let f0 = 0;
+    //   let f1 = 1;
+    //   let f2;
+    //   let i = 2;
+    //  while(i < n){
+    //    f2 = f0 + f1;
+    //     str += f2;
+    //    f0 = f1;
+    //    f1 = f2;
+    //     i++;
+    //  }
+    // return str[n - 1];
 // }
 // console.log(fibonacciString(5)); //3
 // console.log(fibonacciString(7)); //8
 // console.log(fibonacciString(10)); //2
-
 // --------------------------------------------------
 // 7 Палиндромы:
 // 7.1 Напишите функцию, которая получает имя и выводит 
 //     его в обратном порядке
-
 //     function reverse(name){
 //       let str = '';
 //       for (let i = name.length - 1; i >= 0; i--){
@@ -180,11 +185,10 @@
 //       return str;
 //     }
 //     console.log(reverse('Bob'));
-//******************* the same exercise 
+//  **** Solution (#2)
 //    function reverse(name){
 //       let str = '';
 //       for (let i = 0; i < name.length; i++){
-        
 //         str = name[i] + str;
 //       }
 //       return str;
