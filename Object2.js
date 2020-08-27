@@ -358,5 +358,26 @@
 //    }
 //    console.log(mostFrequentElement([0,3,1,4,7,6,7,4,5,2,3,5]));    // Output [3, 4, 5, 7]
 
+// https://www.codewars.com/kata/5b358a1e228d316283001892/train/javascript
+// *** Interview Question (easy)
+// function getStrings(city){
+//     city = city.toLowerCase().replace(/\s/g, '');
+//     let obj = {};
+//       for (let i = 0; i < city.length; i++){
+//          if (obj[city[i]]){
+//            obj[city[i]] ++;
+//          } else {
+//            obj[city[i]] = 1;
+//          }
+//        }
+//        let str = '';
+//        for (let key in obj){
+//          str += key + ':' + '*'.repeat([obj[key]]) + ',';
+//        }
+//     return str.replace(/,$/, ''); 
+// }
+//  "Chicago" ---> output  "c:**,h:*,i:*,a:*,g:*,o:*"
+
+
 //lecture for 05.30.20
 
