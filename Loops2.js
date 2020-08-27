@@ -207,13 +207,23 @@
 // function stairs(n){
 
 // }
-
-
 // console.log(stairs(10));
 
+// 7 ky
+// https://www.codewars.com/kata/5572f7c346eb58ae9c000047/train/javascript
+// *** Complete The Pattern #1
+// function pattern(n){
+//     let str = '';  
+//     for(let i = 1; i <= n; i++){                                     1
+//        for(let j = 1; j <= i; j++){                                  2 2
+//          str += i;                                                   3 3 3
+//        }                                                             4 4 4 4
+//          if (i !== n) { str += '\n'}                                 5 5 5 5 5
+//     }                                                                - - - - - -
+// return str ;                                                         n n n n n n n
+// }                               
 
 // Draw stairs:  https://www.codewars.com/kata/5b4e779c578c6a898e0005c5
-
 // Walk-up Stairs https://www.codewars.com/kata/566c3f5b9de85fdd0e000026/
 
 
