@@ -92,7 +92,6 @@
 //        }
 //     return arr;
 //   }
-
 //  console.log(fibonacci(10)); //[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 
 // *** Solution 2
@@ -106,7 +105,12 @@
 //      return arr;
 //   }
 //   console.log(fibonacci(10));
-//-----------------------------------------------------------------
+
+// *** Solution 3
+//  arr.push(arr[arr.length - 2] ? arr[arr.length - 2] + arr[arr.length - 1] : 1);  
+//  --> in javaScript if we need to finish loop it common practice to put -1, 
+//      so as first condition will be "false" , we push 1. And for next iteration our array will have element under index 2. 
+//-----------------------------------------------------------------  
 //4. Последовательность Фибоначчи: 0,1,1,2,3,5,8,13,21,34,...
 //  Создайте функцию, которая получает число n и возвращает n -ое число Фибоначчи
 //  Например, n = 4 ---> результат: 2
@@ -205,7 +209,15 @@
 //          return str === name;
 //        }
 //       console.log(reverse('day'));
-// --------------------------------------------------
+// ---------------------------------------------------
+// Verify if the given three-digit number is Palindrome
+// function palindrome(n){
+//     let lastNumber = n % 10;
+//      let firstNumber = Math.trunc(n / 100);       or  let secondNumber = (n - lastNumber) / 10 % 10;
+//    return firstNumber === lastNumber;                 let firstNumber = (n - secondNumber * 10 - lastNumber) / 100;
+//   }
+//   console.log(palindrome(141));  //Output true 
+//-----------------------------------------------------
 // 7.3. Напишите функцию isPalindrome, которая принимает строку и определяет, 
 // //     является ли строка палиндромом после удаления из нее всех пробелов
 // //     Выполните проверку на примере строки: "was it a car or a cat i saw"
@@ -274,3 +286,4 @@
 // ************
 // ************
 // ************
+
