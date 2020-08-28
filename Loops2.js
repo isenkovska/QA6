@@ -11,41 +11,25 @@
 //    for(let i = 1; i <= m; i++){        // i = 1;  i <= 4;    2
 //       for(let j = 1; j <= n; j++){     // j = 1;  j <= 10; j = 2...10 
 //         str = str + '*' ;              // str=str + 10*;
-        
-//       }
+//     }
 //       if (i!== m)
-//       str = str + '\n';
+//       str = str + '\n';      // or   str = (i < m) ? str + '\n' : str;
 //     }
 //  return str ;
 //  }
-
 // console.log(pattern(10,4));
-//*****************************
-//  function pattern(n, m){
-//    let str = '';
-//    for(let i = 1; i <= m; i++){
-//      for(let j = 1; j <= n; j++){
-//        str+='*';
-      
-//      }
-//      str = (i < m) ? str + '\n' : str
-//    }
 
-// return str
-//  }
-//******************************
+//-------------------------------------------------
+// *** Solution #2 ( with repeat() )
 //  function pattern(n, m){
 //    let str = '';
-   
 //        str += ('*'.repeat(n)+'\n').repeat(m - 1)
 //        str += '*'.repeat(n)
-      
-   
-
-// return str
+// return str;
 //  }
 //  console.log(pattern(10, 4));
 
+//---------------------------------------------------
 // 2Напишите функцию drawTriangle(n) которая 
 // принимает количество строк n и возвращает строку,
 // содержащую рисунок:
