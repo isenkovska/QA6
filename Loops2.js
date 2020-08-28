@@ -22,14 +22,13 @@
 //-------------------------------------------------
 // *** Solution #2 ( with repeat() )
 //  function pattern(n, m){
-//    let str = '';
-//        str += ('*'.repeat(n)+'\n').repeat(m - 1)
-//        str += '*'.repeat(n)
-// return str;
+//      let  str = ('*'.repeat(n)+'\n').repeat(m - 1);
+//      str += '*'.repeat(n);
+//   return str;
 //  }
 //  console.log(pattern(10, 4));
-
 //---------------------------------------------------
+
 // 2Напишите функцию drawTriangle(n) которая 
 // принимает количество строк n и возвращает строку,
 // содержащую рисунок:
@@ -44,24 +43,22 @@
 //      for(let j = 1; j <= i; j++){
 //        str+='*';
 //      }
-//     str = i === n ? str : str +'\n'
+//     str = (i === n) ? str : str +'\n';
 //    }
 //   return str;
 // }
 // console.log(pattern(5));
-
+// *** Solution #2
 //   function pattern(n){
 //   let str = '';
 //   for(let i = 1; i <= n; i++){
-     
 //        str+='*'.repeat(i);
-     
-//     str = i === n ? str : str +'\n'
+//        str = (i === n ) ? str : str +'\n';    // or str += (i !== n ) ?  '*'.repeat(i) + '\n' : '*'.repeat(i);
 //    }
 //   return str;
 // }
 // console.log(pattern(5));
-
+// -------------------------------------------------
 //3 Напишите функцию drawTriangle(n) которая 
 // принимает количество строк n и возвращает строку,
 // содержащую рисунок:
