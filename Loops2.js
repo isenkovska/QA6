@@ -68,11 +68,10 @@
 // **
 // *
 
-
-// function pattern(n){// function pattern(n){
+// function pattern(n){
 //   let str = '';
-//   for(let i = n; i > 0; i--){
-//      for(let j = 1; j <= i; j++){
+//   for(let i = n; i >= 1; i--){                     or for(let i = 1; i<= n; i++){
+//      for(let j = 1; j <= i; j++){                       for(let j = n; j >= i   ; j--){ 
 //        str+='*';
 //      }
 //     str = i === 1 ? str : str +'\n'
@@ -81,18 +80,17 @@
 // }
 // console.log(pattern(5));
 
+// *** Solution #2
 //   function pattern(n){
 //   let str = '';
 //   for(let i = 1; i <= n; i++){
-     
 //        str+='*'.repeat(i);
-     
-//     str = i === n ? str : str +'\n'
+//     str = (i === n )? str : str +'\n';
 //    }
 //   return str;
 // }
 // console.log(pattern(5));
-
+// -------------------------------------------------------------
 //4 Напишите функцию drawTriangle(n) которая 
 // принимает ширину треугольника (здесь 7) n и возвращает строку,
 // содержащую рисунок:
@@ -101,13 +99,14 @@
 //   *****
 //  *******
 
-// function pattern(n){
-
-
-
-// }
-// console.log(pattern(7));
-
+// function pattern (n){
+//     let str = '\n';
+//       for(let i = 1; i <= n; i = i + 2){
+//         str += (i !== n) ? ' '.repeat((n - i) / 2) + '*'.repeat(i) + ' '.repeat((n - i) / 2) + '\n':' '.repeat((n - i) / 2) + '*'.repeat(i) + ' '.repeat((n - i) / 2);
+//       }
+//       return str;
+//   }
+//   console.log(pattern(7));
 
 //5 Напишите функцию, которая принимает количество ступенек n (n = 5)
 // и рисует лесенку:
