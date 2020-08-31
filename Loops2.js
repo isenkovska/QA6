@@ -150,14 +150,20 @@
 // 7 8 9 10 
 // 11 12 13 14 15" 
 
-
 // function digitTriangle(n){
-
+//   let str = '\n';
+//   let char = 1;
+//    for(let i = 1; i <= n ; i++){  
+//      for(let j = 1; j <= i; j++){
+//        str += char + ' ';
+//        char++;
+//      }
+//      if(i !== n ) {str +=  '\n';}
+//    }
+//   return str;
 // }
-
-// console.log(digitTriangle(10));
-
-
+// console.log(digitTriangle(5));
+// -----------------
 //8 Walk-down Stairs
 // "1 1 
 // 1 2 2 1 
