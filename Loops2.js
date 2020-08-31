@@ -215,7 +215,34 @@
 //          if (i !== n) { str += '\n'}                                 5 5 5 5 5
 //     }                                                                - - - - - -
 // return str ;                                                         n n n n n n n
-// }                               
+// }    
+// -----------------------------------------
+// https://www.codewars.com/kata/55733d3ef7c43f8b0700007c/train/javascript
+// *** Complete The Pattern #2                      
+// function pattern(n){                                                 87654321 
+//     let output = "";                                                 8765432
+//        for(let i = 1; i <= n; i++){                                  876543
+//          for(let j = n; j >= i; j--){                                87654
+//           output += j;                                               8765
+//          }                                                           876
+//          if (i !== n) output += '\n';                                87
+//        }                                                             8
+//     return output;
+// }
+// https://www.codewars.com/kata/557341907fbf439911000022/train/javascript
+// *** Complete The Pattern #3 (Horizontal Image of #2)
+// function pattern(n){                                                 6
+//     let output = "";                                                 65
+//       for(let i = 1; i <= n; i++){                                   654
+//         let char = n;                                                6543
+//           for(let j = 1; j <= i; j++){                               65432
+//             output += char;                                          654321
+//             char--;
+//           }
+//             if (i !== n)output += '\n';
+//       }
+//   return output;
+// }
 
 // Draw stairs:  https://www.codewars.com/kata/5b4e779c578c6a898e0005c5
 // Walk-up Stairs https://www.codewars.com/kata/566c3f5b9de85fdd0e000026/
