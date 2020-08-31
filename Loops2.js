@@ -117,11 +117,13 @@
 // ____#
 
 // function pattern(n){
-
-
-
+//     let str = '\n';     // if we want to avoid offset in the first line
+//     for(let i = 0; i < n; i++){
+//       str += (i === n - 1)? '_'.repeat(i) + '#':'_'.repeat(i) + '#' + '\n';
+//     }
+//   return str ;
 // }
-// console.log(pattern(7));
+// console.log(pattern(8));
 
 //6 Узор из чисел: (n  чисел в строке, m строк)
 // 11111
