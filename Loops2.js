@@ -243,6 +243,28 @@
 //       }
 //   return output;
 // }
+// https://www.codewars.com/kata/55736129f78b30311300010f/train/javascript
+// *** Complete The Pattern #4
+// function pattern(n){                                                 123456
+//     let output = "";                                                 23456
+//      for(let i = 1; i <= n; i++){                                    3456
+//        for(let j = 0; j <= n - i; j++){                              456
+//          output += j + i;                                            56
+//        }                                                             6
+//          if (i !== n ) {output += '\n'};
+//      }
+//     return output;
+// }
+// https://www.codewars.com/kata/55749101ae1cf7673800003e/train/javascript
+// *** Complete The Pattern #5 - Even Ladder                                        
+// function pattern(n){                                                                22
+//     (n % 2) ? n = n - 1 : n;                                                        4444
+//     let output = "";                                                                666666
+//       for(let i = 2; i <= n; i = i + 2){                                            88888888
+//          output += (i !== n) ?  `${i}`.repeat(i) + '\n' : `${i}`.repeat(i);
+//       }
+//      return output;
+// }
 
 // Draw stairs:  https://www.codewars.com/kata/5b4e779c578c6a898e0005c5
 // Walk-up Stairs https://www.codewars.com/kata/566c3f5b9de85fdd0e000026/
