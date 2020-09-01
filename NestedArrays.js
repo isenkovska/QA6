@@ -146,6 +146,15 @@
 //     return sumOfarr;
 //   }
 //   console.log(sumOfArrays([[5,2], [3,5],[2,1],[0]]));
+// ------ if we need to find the sum of all elements
+// function sumOfarr(arr){
+//     let sum = 0;
+//       for(let i = 0; i < arr.length; i++){
+//         sum += (arr[i]).reduce((acc,cur) => acc + cur);
+//       }
+//     return sum;
+//   }
+//   console.log(sumOfarr ([[0,1], [2,2,1],[5,5],[1,2,3,8]]));    // Output 22
 //----------------------------------------------------
 // How we can call elements from nested arrays,example
 // const arr = [[1, 5 ,3], 4, 5, [6, 7, 8]];
