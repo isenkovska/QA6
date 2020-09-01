@@ -184,6 +184,8 @@
 // }
 // console.log(stairs(6));
 // ---------------------------------------
+// 6 ky
+// https://www.codewars.com/kata/566c3f5b9de85fdd0e000026/train/javascript
 // 9 Walk-up Stairs 
 // "
 //                                     1 1
@@ -197,12 +199,27 @@
 //     1 2 3 4 5 6 7 8 9 9 8 7 6 5 4 3 2 1
 // 1 2 3 4 5 6 7 8 9 0 0 9 8 7 6 5 4 3 2 1"
 
-
 // function stairs(n){
-
+// let moving = '';
+// let c;
+// for (let i = 1; i <= n; i++) {
+//   moving += ' '.repeat(((n * 2) - (i * 2)) * 2);
+//     for (let j = 1; j <= i; j++ ){
+//        if (j >= 10) {c = j - 10;} 
+//        else { c = j;}
+//          moving += c + ' ';
+//      }
+//       for(let j = i; j >= 1; j--){
+//          if (j >= 10) {c = j - 10;} 
+//          else { c = j;}
+//            moving += (j !== 1)? c + ' ': c;
+//        }
+//     if (i !== n) { moving += '\n';}
+// }
+// return moving;
 // }
 // console.log(stairs(10));
-
+// ----------------------------------------------------------------------
 // 7 ky
 // https://www.codewars.com/kata/5572f7c346eb58ae9c000047/train/javascript
 // *** Complete The Pattern #1
@@ -265,8 +282,16 @@
 //       }
 //      return output;
 // }
-
-// Draw stairs:  https://www.codewars.com/kata/5b4e779c578c6a898e0005c5
-// Walk-up Stairs https://www.codewars.com/kata/566c3f5b9de85fdd0e000026/
+// ------------------------------------------------------------------
+// 8 ky
+// Draw stairs: https://www.codewars.com/kata/5b4e779c578c6a898e0005c5
+// function drawStairs(n) {                             (for 7- ster stairs)        I
+//     let str = '';                                                                   I
+//     for(let i = 0; i < n; i++){                                                       I
+//      str = str + ' '.repeat(i) + 'I';                                                   I
+//      str = (i === n-1 ) ? str: str + '\n';                                                I
+//     }                                                                                       I
+//    return str;                                                                                I
+// }
 
 
