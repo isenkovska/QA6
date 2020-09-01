@@ -136,7 +136,17 @@
 //    return arr1;
 // }
 // console.log(sumsInArray([[1, 2, 3], [2, 2]]));    // [6, 4]
-// ----------------------
+// *** Solution #2 (with reduce method )
+// function sumOfArrays(arr){
+//     let sumOfarr = [];
+//      for(let i =0; i < arr.length; i++){
+//        let sum = 0;
+//          sumOfarr.push((arr[i]).reduce((acc,cur) => acc + cur));
+//         }
+//     return sumOfarr;
+//   }
+//   console.log(sumOfArrays([[5,2], [3,5],[2,1],[0]]));
+//----------------------------------------------------
 // How we can call elements from nested arrays,example
 // const arr = [[1, 5 ,3], 4, 5, [6, 7, 8]];
 //  console.log(arr[0][arr[0].length - 1]);
