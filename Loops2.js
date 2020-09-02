@@ -184,7 +184,7 @@
 // }
 // console.log(stairs(6));
 // ---------------------------------------
-// 6 ky
+// 6 kyu
 // https://www.codewars.com/kata/566c3f5b9de85fdd0e000026/train/javascript
 // 9 Walk-up Stairs 
 // "
@@ -220,7 +220,7 @@
 // }
 // console.log(stairs(10));
 // ----------------------------------------------------------------------
-// 7 ky
+// 7 kyu
 // https://www.codewars.com/kata/5572f7c346eb58ae9c000047/train/javascript
 // *** Complete The Pattern #1
 // function pattern(n){
@@ -283,7 +283,7 @@
 //      return output;
 // }
 // ------------------------------------------------------------------
-// 8 ky
+// 8 kyu
 // Draw stairs: https://www.codewars.com/kata/5b4e779c578c6a898e0005c5
 // function drawStairs(n) {                                     (for 7- ster stairs) I       
 //     let str = '';                                                                   I
