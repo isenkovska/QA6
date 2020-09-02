@@ -129,19 +129,10 @@
 //     }
 //       return str;
 //     }
-// -----------------------
-// function drawStairs(n) {
-//     let str = '';
-//     for(let i = 0; i < n; i++){                  
-//      str = str + ' '.repeat(i) + 'I';
-//      str = (i === n-1 ) ? str: str + '\n';
-       
-//     }
-//    return str;
-//   }
-//  ---------------------------------
+// ----------------------------------------------------------------------
+// 7 kyu
 //               Exercise 7
-//  Draw me a chessboard
+// *** Draw me a chessboard
 // https://www.codewars.com/kata/56242b89689c35449b000059/train/javascript
 // 
 // [                           rows 6, columns 4
@@ -166,7 +157,24 @@
 //     }
 //   return arr;
 //   }
-//  ---------------------------------------
+//  --------------------------------------------------
+//  *** Drawing a Cross!
+//  https://www.codewars.com/kata/5a036ecb2b651d696f00007c
+//
+// function drawACross(n) {                                                                            X     X
+//     if (n <= 3) return  "Not possible to draw cross for grids less than 3x3!";                       X   X
+//     if (n % 2 === 0) return "Centered cross not possible!";                                           X X
+//     let str = '';                                                                                      X
+//       for(let i = 0; i < n; i++){                                                                     X X 
+//         for(let j = 0; j <  n; j++){                                                                 X   X
+//           if(j === i || j + i === n - 1) {str += 'x';}                                              X     X
+//             else {str += ' ';}
+//         }
+//          if (i !== n - 1) str += '\n';
+//       }
+//      return str;
+// }
+// --------------------------------------------------------
 //             Exercise 8
 //     *********
 //     -*******-
