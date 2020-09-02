@@ -105,6 +105,23 @@
 //       return str;
 //   }
 //   console.log(pattern(7));
+// *** Solution #2 (with using only loops)
+// function drawTriangle (n){
+//     let str = '\n';
+//       for (let i = 1; i <= n; i += 2){
+//         let space = '';
+//         let stars = '';
+//         for (let j = 1; j <= (n - i) / 2; j++){
+//           space += ' ';
+//         }
+//         for(let j = 1; j <= i; j++){
+//           stars += '*';
+//         }
+//          str += (i !== n)? space + stars + space + '\n' : space + stars + space;
+//       }
+//     return str;
+//   }
+//   console.log(drawTriangle (7));
 // -----------------------------------------------------------------
 // 5 Напишите функцию, которая принимает количество ступенек n (n = 5)
 // и рисует лесенку:
