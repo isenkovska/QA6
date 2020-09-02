@@ -34,13 +34,15 @@
 
 // https://github.com/Marak/faker.js/blob/master/Readme.md
 
-// https://www.youtube.com/watch?v=HXV3zeQKqGY&t=156s    --> SQL course
-
+// https://www.youtube.com/watch?v=HXV3zeQKqGY&t=156s            --> SQL course
+// https://www.loom.com/share/72d7c98246914bdbb262ce56f3931b1b   --> about CI / CD
 
 // Codewars:
 // https://www.codewars.com/kata/563d59dd8e47a5ed220000ba/train/javascript
 // https://www.codewars.com/kata/5a63948acadebff56f000018/train/javascript
 
+
+//https://www.w3schools.com/sql/sql_and_or.asp  --> SQL tutorial
 
 
 // *** 1 Exercise
