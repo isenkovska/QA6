@@ -18,6 +18,16 @@
 //  }
 //  console.log(positiveSum([1,-2,3,4,5]));  // output 13
 
+// *** Sum all even numbers and odd numbers (depends on their index )
+// function rowWeights(array){
+//    var arr = [0, 0];
+//    for (var i = 0; i < array.length; i++) {
+//      i % 2 == 0 ? arr[0] += array[i] : arr[1] += array[i];
+//    }
+//    return arr;
+//  }
+//  console.log(rowWeights([10, 152, 100, 150, 10]));    // Output [120, 302]
+
 // ***  Exercise 2
 //  https://www.codewars.com/kata/57a2013acf1fa5bfc4000921
 //      Calculate average
