@@ -26,7 +26,11 @@
 //    }
 //    return arr;
 //  }
-//  console.log(rowWeights([10, 152, 100, 150, 10]));    // Output [120, 302]
+//  console.log(rowWeights([10, 152, 100, 150, 10]));    // Output [120, 302] 
+
+// (with Reduce Method)
+// const rowWeights = array =>
+//   array.reduce((pre, val, idx) => (pre[idx&1] += val, pre), [0, 0]);
 
 // ***  Exercise 2
 //  https://www.codewars.com/kata/57a2013acf1fa5bfc4000921
