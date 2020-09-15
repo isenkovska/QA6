@@ -30,7 +30,7 @@
 
 // (with Reduce Method)
 // const rowWeights = array =>
-//   array.reduce((pre, val, idx) => (pre[idx&1] += val, pre), [0, 0]);
+//   array.reduce((acc, cur, idx) => (acc[idx&1] += cur, acc), [0, 0]);
 
 // ***  Exercise 2
 //  https://www.codewars.com/kata/57a2013acf1fa5bfc4000921
