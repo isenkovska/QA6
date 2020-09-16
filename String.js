@@ -53,7 +53,6 @@
    
 // };
 // console.log(removeChar('abcd'));   //Output ('bc')
-
 // Don't give me five!
 // https://www.codewars.com/kata/5813d19765d81c592200001a
 // function dontGiveMeFive(start, end){
@@ -165,6 +164,11 @@
 //   }
 
 // *** Exercise
+// stringObject.split(separator,howmany)
+//  - split() can divided a string into several parts by a specified separator. The result is an array of strings. 
+//    The split string does not include the separator itself.
+//  - If we use the empty string as the separator, we'll get an array of strings containing each character.
+//  - We can specified number of how many times we want get the result as the second parameter 
 //  --- Thinking & Testing : Something capitalized ---
 // https://www.codewars.com/kata/56d93f249c844788bc000002
 // function testit(s){
@@ -359,3 +363,6 @@
 //  }
 //  console.log(isPalindrome("Was it a car or a cat I saw"));
 //================================================
+
+// !!! concat() can merge many strings into a string like this: 
+//   - let str = 'My'.concat('name', 'is', 'Svitlana');      // Output 'My name is  Svitlana'
