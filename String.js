@@ -170,6 +170,26 @@
 //  - If we use the empty string as the separator, we'll get an array of strings containing each character.
 //  - We can specified number of how many times we want get the result as the second parameter 
 //  --- Thinking & Testing : Something capitalized ---
+
+// https://www.codewars.com/kata/57280481e8118511f7000ffa/train/javascript
+// *** Training JS #18
+//   function splitAndMerge(str, s) {
+//     let result = str;
+//     result.split(' ').map(index => index.split('').join(s));        // Output ["M-y", "n-a-m-e", "i-s", "L-a-n-a-!"]
+//      return result.join(s);
+//   }
+// console.log(splitAndMerge('My name is Lana!', '-'));                // Output "M-y-n-a-m-e-i-s-L-a-n-a-!"
+// *** or 
+//   function splitAndMerge(str,sp){
+//     let words = str.split(" ");
+//     let arr =[];
+//     let res = []
+//     for(i=0;i<words.length;i++){
+//      arr.push(words[i].split("").join(sp));
+//     }
+//     res = arr.join(" ");
+//     return res;
+//   }
 // https://www.codewars.com/kata/56d93f249c844788bc000002
 // function testit(s){
 //     s = s.split(' ');
@@ -365,4 +385,5 @@
 //================================================
 
 // !!! concat() can merge many strings into a string like this: 
-//   - let str = 'My'.concat('name', 'is', 'Svitlana');      // Output 'My name is  Svitlana'
+//   - let str = 'My'.concat('name', 'is', 'Svitlana');      // Output 'My name is  Svitlana', but
+//   we rarely see the actual use of concat(), because we have a more simple way. that is using the + operator:
