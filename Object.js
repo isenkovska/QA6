@@ -1,80 +1,72 @@
 // 1 Создание и заполнение объекта
 // создайте объект user со свойствами name, age, isStudent 
-let user = {
-    name: 'Alice',
-    age: 30,
-    isStudent: true,
+// let user = {
+//     name: 'Alice',
+//     age: 30,
+//     isStudent: true,
     
-  }
-  console.log(user);
-  // ------------------------------------------------
-  //2 Напечатать значение свойства name
-  console.log(user.name);
-  console.log(user['name']);
+// }
+// console.log(user);
+// ------------------------------------------------
+//2 Напечатать значение свойства name
+// console.log(user.name);
+// console.log(user['name']);
+// -------------------------------------------------
+//3 Добавление свойства объекта
+//  добавьте свойства: city, isAdult, hobby, hasChild 
+  // user.city = 'Miami';
+  // user['isAdult'] = true;
+  // user.hobby = 'sport';
+  // console.log(user);
+// ------------------------------------------------
+//4 Удаление свойства  - удалите свойствo hasChild
+  // delete user.hobby;
+  // console.log(user);
   
-  // -------------------------------------------------
-  //3 Добавление свойства объекта
-  //  добавьте свойства: city, isAdult, hobby, hasChild 
+  // user.age++;
+  // console.log(user);
+  // user['city'] = 'LA';
+  // console.log(user);
+ // ----------------------------------------------
+// 5 Есть ли это свойство у объекта?
+//  Определите, есть ли у объекта свойства age, lastname
+  // console.log(!!user.age); //true
+  // console.log(!!user.lastname); //false
   
-  user.city = 'Miami';
-  user['isAdult'] = true;
-  user.hobby = 'sport';
-  console.log(user);
-  
-  // ------------------------------------------------
-  //4 Удаление свойства  - удалите свойствo hasChild
-  
-  delete user.hobby;
-  console.log(user);
-  
-  user.age++;
-  console.log(user);
-  user['city'] = 'LA';
-  console.log(user);
-  // ----------------------------------------------
-  // 5 Есть ли это свойство у объекта?
-  //  Определите, есть ли у объекта свойства age, lastname
-  
-  console.log(!!user.age); //true
-  console.log(!!user.lastname); //false
-  
-  if (user['age']) {
-    console.log('YES');
-  } else console.log('NO');
+  // if (user['age']) {
+  //   console.log('YES');
+  // } else console.log('NO');
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  // console.log(user.hasOwnProperty('isStudent'));
+  // console.log('isStudent' in user);
   // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  console.log(user.hasOwnProperty('isStudent'));
-  console.log('isStudent' in user);
-  // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  // -------------------------------------------
-  //6  Проход по объекту
-  // 6а)  Напечатать ключи (свойства объекта)
-  //  ("name" "age" "city" "isStudent" "isAdult"...)
-  
-  
-  
-  // 6б) Напечатать значения свойств: 
-  
-  // --------------------------------------------------------
-  // Задание 7. В прошлом году создан объект person. 
+// -------------------------------------------
+//6  Проход по объекту
+// 6а)  Напечатать ключи (свойства объекта)
+//  ("name" "age" "city" "isStudent" "isAdult"...)
+    // for (let key in user){
+    //   console.log (key)
+    // }
+// ------------------------------------------------
+// 6б) Напечатать значения свойств: 
+// Задание 7. В прошлом году создан объект person. 
   // Если у него есть свойство age, добавить к значению свойство 1, 
   // если свойства нет, создать это свойство со значением 20.
   
   //1 вариант) свойства age нет:
-  let person = {
-    firstName: "Bob",
-    lastName: "Jonson",
-  }
-  
-  //----------------
+  // let person = {
+  //   firstName: "Bob",
+  //   lastName: "Jonson",
+  // }
+//----------------
   //2 вариант) свойство age есть:
-  let person1 = {
-    firstName: "Bob",
-    lastName: "Jonson",
-    age: 10
-  }
+  // let person1 = {
+  //   firstName: "Bob",
+  //   lastName: "Jonson",
+  //   age: 10
+  // }
   
-  
-  // =============================================
+// =============================================
   // Задание 8. Создать объект со свойствами '0','1','2','3' 
   // и значениями 'zero', 'one', 'two', 'three'
   // let words = ['zero', 'one', 'two', 'three']
