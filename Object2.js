@@ -378,6 +378,8 @@
 // }
 //  "Chicago" ---> output  "c:**,h:*,i:*,a:*,g:*,o:*"
 
-
+// *** 6 kyu
+// https://www.codewars.com/kata/5a434a9dc5e284724f000011
+// The most common letter
 //lecture for 05.30.20
 
