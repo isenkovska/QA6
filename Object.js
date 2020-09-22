@@ -4,7 +4,6 @@
 //     name: 'Alice',
 //     age: 30,
 //     isStudent: true,
-    
 // }
 // console.log(user);
 // ------------------------------------------------
@@ -86,14 +85,24 @@
   //   console.log(word);
 //----------------------------------------------
 // Задание 10. Дан номер дня недели. Вернуть название дня недели.
-  function daysOfWeek(day) {
-  
-  }
-  //console.log(daysOfWeek(6))
-  
-  // ==============================================
-  // Задание 11  - Get Planet Name By ID
-  // https://www.codewars.com/kata/515e188a311df01cba000003
+  //   function daysOfWeek(day) {
+  //     let week = {
+  //      1: 'Monday',
+  //      2: 'Tuesday',
+  //      3: 'Wednesday',
+  //      4: 'Thursday',
+  //      5: 'Friday',
+  //      6: 'Saturday',
+  //      7: 'Sunday'
+  //     }
+  //     if (day in week){ return week[day ]} 
+  //       else {return 'Error';}
+  //     }
+  //    console.log(daysOfWeek(7));
+  //  }
+// ==============================================
+// Задание 11  - Get Planet Name By ID
+// https://www.codewars.com/kata/515e188a311df01cba000003
   function getPlanetName(id){
      
   }
