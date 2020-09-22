@@ -103,42 +103,48 @@
 // ==============================================
 // Задание 11  - Get Planet Name By ID
 // https://www.codewars.com/kata/515e188a311df01cba000003
-  function getPlanetName(id){
-     
-  }
+  //  function getPlanetName(id){
+  //     return {
+  //        1: 'Mercury',
+  //        2: 'Venus',
+  //        3: 'Earth',
+  //        4: 'Mars',
+  //        5: 'Jupiter',
+  //        6: 'Saturn',
+  //        7: 'Uranus',
+  //        8: 'Neptune',
+  //     }[id];
+  //   }
+  //  }
   //console.log(getPlanetName(3));
-  
-  //============================================
-  
-  // https://www.codewars.com/kata/577ff15ad648a14b780000e7
-  // Задание 12.Напишите функцию greet, которая принимает параметр 
-  // language и возвращает приветствие на этом языке. 
-  // Если язык не входит в словарь, возвратить Welcome! 
-  function greet(language) {
-    let ob = {
-      english: 'Welcome',
-      czech: 'Vitejte',
-      danish: 'Velkomst',
-      dutch: 'Welkom',
-      estonian: 'Tere tulemast',
-      finnish: 'Tervetuloa',
-      flemish: 'Welgekomen',
-      french: 'Bienvenue',
-      german: 'Willkommen',
-      irish: 'Failte',
-      italian: 'Benvenuto',
-      latvian: 'Gaidits',
-      lithuanian: 'Laukiamas',
-      polish: 'Witamy',
-      spanish: 'Bienvenido',
-      swedish: 'Valkommen',
-      welsh: 'Croeso'
-    };
-  
-  }
-  
+//============================================
+// https://www.codewars.com/kata/577ff15ad648a14b780000e7
+// Задание 12.Напишите функцию greet, которая принимает параметр 
+// language и возвращает приветствие на этом языке. 
+// Если язык не входит в словарь, возвратить Welcome! 
+  // function greet(language) {
+  //   let ob = {
+  //     english: 'Welcome',
+  //     czech: 'Vitejte',
+  //     danish: 'Velkomst',
+  //     dutch: 'Welkom',
+  //     estonian: 'Tere tulemast',
+  //     finnish: 'Tervetuloa',
+  //     flemish: 'Welgekomen',
+  //     french: 'Bienvenue',
+  //     german: 'Willkommen',
+  //     irish: 'Failte',
+  //     italian: 'Benvenuto',
+  //     latvian: 'Gaidits',
+  //     lithuanian: 'Laukiamas',
+  //     polish: 'Witamy',
+  //     spanish: 'Bienvenido',
+  //     swedish: 'Valkommen',
+  //     welsh: 'Croeso'
+  //   };
+  // }
   //console.log(greet('dutch'))
- 
+// ==============================================================
 //  *** С Object.fromEntries вы можете преобразовать Map в Object:
     // const map = new Map([ ['foo', 'bar'], ['baz', 42] ]);
     // const obj = Object.fromEntries(map);
