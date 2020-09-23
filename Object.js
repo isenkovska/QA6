@@ -164,3 +164,20 @@
    // );
    // console.log(object2);
    // { a: 2, b: 4, c: 6 }
+// ============================================================
+// 7 kyu
+// https://www.codewars.com/kata/5b16490986b6d336c900007d/train/javascript
+// My Languages
+//  function myLanguages(results) {
+//   let arr = [];
+//   let result = Object.entries(results).sort(function(a,b){
+//                                            return  b[1] - a[1];
+//    })
+//    for (let i = 0; i < result.length; i++){
+//         if(result[i][1] >= 60){
+//           arr.push(result[i][0]);
+//         }
+//    }
+//    return arr;
+//  }
+// console.log(myLanguages({"C++": 75, "ASM": 80, "Haskell": 55}));   // Output 
