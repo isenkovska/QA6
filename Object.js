@@ -167,7 +167,7 @@
 // ============================================================
 // 7 kyu
 // https://www.codewars.com/kata/5b16490986b6d336c900007d/train/javascript
-// My Languages
+// My Languages (1 Solution)
 //  function myLanguages(results) {
 //   let arr = [];
 //   let result = Object.entries(results).sort(function(a,b){
@@ -180,4 +180,8 @@
 //    }
 //    return arr;
 //  }
-// console.log(myLanguages({"C++": 75, "ASM": 80, "Haskell": 55}));   // Output 
+// console.log(myLanguages({"C++": 75, "ASM": 80, "Haskell": 55}));   // Output ["ASM", "C++"];
+// ----------- (2 Solution)
+// function myLanguages(results) {
+//   return Object.keys(results).filter(r => results[r] > 59).sort((a,b) => results[b] - results[a]);
+// } 
