@@ -420,14 +420,4 @@
 
 //lecture for 05.30.20
 
-function myLanguages(results) {
-    let arr = [];
-    let result = Object.entries(results).sort();
-     for(let i = 0; i < result.length; i++){
-      if (!arr.length && result[i][1] >= 60)              {arr.push(result[i][0]);}
-      if(result[i][1] < arr[i - 1] && result[i][1] >= 60) {arr.pop(result[i][0]);}
-      if (result[i][1] > arr[0] && result[i][1] >= 60){arr.push(result[i][0]);}
-    } 
-    return  arr;
-}
-console.log(myLanguages({'Ruby': 100, "Dutch" : 93, "Greek": 71}));
+// lecture for 05.30.20
