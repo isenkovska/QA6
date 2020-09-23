@@ -381,5 +381,42 @@
 // *** 6 kyu
 // https://www.codewars.com/kata/5a434a9dc5e284724f000011
 // The most common letter
+
+// *** 7 kyu
+// https://www.codewars.com/kata/5a25ac6ac5e284cfbe000111/train/javascript
+// Coloured Triangles
+// function triangle(row) {
+//     let colour = {
+//     'GG': 'G',
+//     'BB': 'B',
+//     'RR': 'R',
+//     'BG': 'R',
+//     'GB': 'R',
+//     'RG': 'B',
+//     'GR': 'B',
+//     'BR': 'G',
+//     'RB': 'G'
+//   }
+    
+//   let triangleC = '\n';
+//   let rowC = '';
+//   for(let i = 0; i < row.length - 1; i++){
+//        let str = '';
+//        if (rowC.length){
+//          for(let j = 0; j < rowC.length - 1; j++){
+//            str += colour[rowC[j]+rowC[j + 1]];
+//          }
+//         } else {
+//           for(let j = 0; j < row.length - 1; j++){  
+//             str += colour[row[j]+row[j + 1]];
+//           }
+//        }
+//       rowC = str;
+//       triangleC += rowC + '\n';
+//  }
+//     return (row.length === 1 ) ? row : (row.length < 3 )? colour[row]:rowC ;
+//  }
+ 
+
 //lecture for 05.30.20
 
