@@ -45,6 +45,9 @@
 //https://www.w3schools.com/sql/sql_and_or.asp  --> SQL tutorial
 
 
+
+
+
 // *** 1 Exercise
 // We have two separate arrays, fill out with numbers,  and we need to make concatenation and descending sort .
 // const arr = [8, 7, 5, 3]; 
