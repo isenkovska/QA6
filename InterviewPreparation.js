@@ -45,6 +45,9 @@
 //https://www.w3schools.com/sql/sql_and_or.asp  --> SQL tutorial
 
 
+// bn,mn
+
+
 
 
 
