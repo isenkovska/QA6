@@ -17,6 +17,20 @@
    // console.log(Number.parseInt(s));
 // *** Exercice 4
 // How you can check if two strings are anagrams?
+  // ---- (first solution)
+   // let str = 'silent';
+   // let str2 = 'listen';
+   //   for(let i = 0; i< str.length; i++){
+   //     if (!str2.includes(str[i])){
+   //       console.log(false);
+   //     }
+   //  }
+   // console.log(true);  // We can do additional check if the length in both strings are equal.
+ // ---- (second solution)
+   // let a =  str.split('').sort().join('');
+   // let b = str2.split('').sort().join('');
+   // console.log(a === b);
+// *** Exercise 5
 
 
 
