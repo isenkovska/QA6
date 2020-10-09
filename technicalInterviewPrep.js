@@ -2,9 +2,22 @@
 // How do you can check if the number is integer?
    // let n = 5;
    // console.log(Number.isInteger(n));    // or console.log(n % 1 === 0);
+// *** Exercise 2
+// how do you can convert number into string?
+   // let n = 25;
+   // console.log(n + '');
+   // console.log(String(n));
+   // console.log(JSON.stringify(n));
+   // console.log(n.toString());
+// *** Exercise 3
+// How do you can convert string into binary number?
+   // let s = '251234567891567812443';
+   // console.log(s * 1);
+   // console.log(Number(s));
+   // console.log(Number.parseInt(s));
+// *** Exercice 4
+// How you can check if two strings are anagrams?
 
-// *** Exercice 2
-// 
 
 
 
