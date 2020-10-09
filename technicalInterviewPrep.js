@@ -1,6 +1,10 @@
+// *** Exercise 1 
+// How do you can check if the number is integer?
+   // let n = 5;
+   // console.log(Number.isInteger(n));    // or console.log(n % 1 === 0);
 
-
-
+// *** Exercice 2
+// 
 
 
 
