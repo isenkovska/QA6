@@ -16,7 +16,7 @@
    // console.log(Number(s));
    // console.log(Number.parseInt(s));
 // *** Exercice 4
-// How you can check if two strings are anagrams?
+// How you can check if two strings are anagrams?  (anagrams are case insensitive)
   // ---- (first solution)
    // let str = 'silent';
    // let str2 = 'listen';
@@ -31,7 +31,17 @@
    // let b = str2.split('').sort().join('');
    // console.log(a === b);
 // *** Exercise 5
-
+// Get string, that consists with all capital letters in the front and other in their original state
+   // let str = 'HelloSvitLaNa';
+   // let str2 = '';
+   // for (let i = 0; i < str.length; i++){
+   //  if (str[i] === str[i].toUpperCase()){  
+   //   str2 += str[i];                             // or    str2 = str[i] + str2;
+   //  }                                            //    else str2 += str[i] (but will be break orig. state of capital letters)
+   // }
+   // console.log(str2 + str.replace(/[A-Z]/g,''));
+// *** Exercise 6 Fibonacci number
+// *** Exercise 7
 
 
 
