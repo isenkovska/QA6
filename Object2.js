@@ -420,4 +420,3 @@
 
 //lecture for 05.30.20
 
-// lecture for 05.30.20
