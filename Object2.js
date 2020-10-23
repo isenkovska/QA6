@@ -26,9 +26,6 @@
 
 // console.log(Object.entries(obj));
 
-// let user = {};
-// console.log(user === {});
-
 // console.log(Object.keys(obj).length);
 //-----------------------------------------------------------------------------------------------------------------------
 // Посчитать, сколько раз встречается каждая буква в строке
@@ -46,22 +43,17 @@
 //   }
 //  return obj;
 // }
-
 // console.log(countLetters('I like Javascript and Python'));
-//объяснение:
-// let user = {
-  
-// }
-// if (user['i']) user['i']++;
-// else user['i']=1;
-
-// console.log(user);
-
-// if (user['i']) user['i']++;
-// else user['i']=1;
-// console.log(user);
-
-//проверка циклов:
+//  (*** 2 Solution)
+//  function countLetters(str){
+//  let obj = {};
+//   let arr = str.toLowerCase().replace(/ /g,'').split('');
+//   arr.forEach(el => obj[el] = ( obj[el] || 0 ) + 1);      // or  arr.forEach(el => obj[el] ? obj[el]++ : obj[el] = 1);
+//  return obj;
+//}
+//console.log(countLetters('be Happy and Smile'))
+//--------------------------
+// проверка циклов:
 // let str = 'hello';
 // for (let i in str){
 //   console.log(i);
