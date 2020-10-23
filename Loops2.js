@@ -251,6 +251,27 @@
 // return str ;                                                         n n n n n n n
 // }    
 // -----------------------------------------
+// https://www.codewars.com/kata/5581a7651185fe13190000ee/train/javascript
+// *** Complete The Pattern #10 - Parallelogram
+// function pattern(n){                                                 123456789
+//     let str = '';                                                   123456789
+//       let number;                                                  123456789
+//          for(let i = 1; i<= n; i++){                              123456789
+//           str += ' '.repeat(n - i);                              123456789
+//            for(let k = 1; k <= n; k++){                         123456789
+//               if (k >= 10){                                    123456789
+//                 number = (k  % 10 );                          123456789
+//                 str += number;                               123456789
+//               } else {
+//                 str += k; 
+//               }
+//              }
+//                if( i !== n ) str += ' '.repeat(i - 1) + '\n';
+//                else str += ' '.repeat(i - 1);
+//          } 
+//       return str;
+// }
+// ------------------------------------------------------
 // https://www.codewars.com/kata/55733d3ef7c43f8b0700007c/train/javascript
 // *** Complete The Pattern #2                      
 // function pattern(n){                                                 87654321 
