@@ -44,7 +44,7 @@
 // *** Exercise 7
 
 
-
+// Questions about error object
 
 
 
