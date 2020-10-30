@@ -244,15 +244,33 @@
 // f2 =  f1 + f0 =  '010'
 // f3  = f2 + f1 = '01001'
 // f4  = f3 + f2 = '01001' + '010' = '01001010'
-// Напишите функцию, возвращающую n-e число fn
-
-// function solve(n){
-
-// }
-
-// console.log(solve(5)); // '0100101001001'
-// Эта задача в codewars:
+// *** 7 kyu
 // https://www.codewars.com/kata/5aa39ba75084d7cf45000008
+// Напишите функцию, возвращающую n-e число fn
+// function solve(n){
+    // let arr  = ['0', '01'];
+    //     for(let i = 0; i <= n - 2; i++){
+    //         arr.push(arr[i+1] + arr[i])
+    //     }  
+    // return arr[n];
+// }
+// console.log(solve(5)); // '0100101001001'
+  // --- 2 Solution ---
+//   const memo = {
+//     0: '0',
+//     1: '01',
+//   }
+  
+//   function fib(n) {
+//     if (!memo[n]) {
+//       memo[n] = fib(n-1) + fib(n-2);
+//     }
+//     return memo[n];  
+//   }
+  
+//   function solve(n){
+//     return n < 0 ? null : fib(n);
+//   }
 // --------------------------------------------------
 //9 функция isBalanced, которая принимает строку s, 
 // содержащую скобки '[',']', проверяет правильность 
