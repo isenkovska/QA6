@@ -57,6 +57,15 @@
  //     return ((n + '').length === n2.length) ? +Array.from(String(n),Number).sort().join(''): +arr.join('');
  //   }
  //  console.log(theSmallestNum(5003));  // Output 3005
+   // (2 Solution)
+   // function theSmallestNum(n){
+   //    let n2 = (n + '').split('').sort().join('');
+   //      let zero = (n + '').replace(/0/g, '').split('').sort();
+   //       let n3 = [];
+   //       n3.push(zero[0] + '0'.repeat((n + '').length - zero.length),zero.slice(1));
+   //    return ((n + '').length === zero.length) ? +n2 : +(n3.join('')).replace(/,/g, '');
+   //  }
+   //  console.log(theSmallestNum(5001)); 
  
 // ??? Questions about error object
 
