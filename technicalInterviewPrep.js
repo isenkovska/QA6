@@ -58,30 +58,7 @@
  //   }
  //  console.log(theSmallestNum(5003));  // Output 3005
  
-// Questions about error object
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// ??? Questions about error object
 
 // ***  Exercise
 // We have two separate arrays, fill out with numbers,  and we need to make concatenation and descending sort .
