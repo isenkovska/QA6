@@ -41,9 +41,23 @@
    // }
    // console.log(str2 + str.replace(/[A-Z]/g,''));
 // *** Exercise 6 Fibonacci number
-// *** Exercise 7
 
-
+// *** Exersice (Practice JS)
+// Return the smallest possible number
+ //   function theSmallestNum(n){
+ //    let n2 = (n + '').replace(/0/g, '');
+  
+ //    let arr =  Array.from(String(n),Number).sort();
+ //     for(let i = 0; i < arr.length; i++){
+ //        if (arr[i] !== 0){
+ //          arr.unshift(arr.splice(i ,1)[0])
+ //          break;
+ //        } 
+ //       }
+ //     return ((n + '').length === n2.length) ? +Array.from(String(n),Number).sort().join(''): +arr.join('');
+ //   }
+ //  console.log(theSmallestNum(5003));  // Output 3005
+ 
 // Questions about error object
 
 
