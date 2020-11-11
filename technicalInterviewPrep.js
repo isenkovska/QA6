@@ -46,7 +46,6 @@
 // Return the smallest possible number
  //   function theSmallestNum(n){
  //    let n2 = (n + '').replace(/0/g, '');
-  
  //    let arr =  Array.from(String(n),Number).sort();
  //     for(let i = 0; i < arr.length; i++){
  //        if (arr[i] !== 0){
