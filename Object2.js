@@ -377,15 +377,15 @@
 // *** 7 kyu
 // https://www.codewars.com/kata/5a25ac6ac5e284cfbe000111/train/javascript
 // Coloured Triangles
-// function triangle(row) {
-//     let colour = {
-//     'GG': 'G',
-//     'BB': 'B',
-//     'RR': 'R',
-//     'BG': 'R',
-//     'GB': 'R',
-//     'RG': 'B',
-//     'GR': 'B',
+// function triangle(row) {                                  R R G B R G B B
+//     let colour = {                                         R B R G B R B
+//     'GG': 'G',                                              G G B R G G
+//     'BB': 'B',                                               G R G B G
+//     'RR': 'R',                                                B B R R
+//     'BG': 'R',                                                 B G R
+//     'GB': 'R',                                                  R B
+//     'RG': 'B',                                                   G
+//     'GR': 'B', 
 //     'BR': 'G',
 //     'RB': 'G'
 //   }
