@@ -96,6 +96,17 @@
 //  const arr2 = arr.filter(el => el.length > 4);
 // console.log(arr2);  // output [] (there isn't any element with length more then 4)
 
+// *** 7 kyu
+// https://www.codewars.com/kata/56b1eb19247c01493a000065/train/javascript
+// Unique Sum
+   // function uniqueSum(lst){
+   //  return lst.filter((el, i) => lst.indexOf(el) === i).reduce((acc, curEl) => acc + curEl, null);
+   // };
+
+   // function uniqueSum(lst){
+   //    return (!lst.length) ? null : [...new Set(lst)].reduce((acc, curV) => acc += curV);
+   // }
+ 
 // *** Exercise 5
 //  ( To find Duplicates )
 // const arr = [-1, 2, 0, 2, 7, 7, 7, -1, 0, 8, 3, 4];
