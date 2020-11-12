@@ -87,6 +87,17 @@
 
 //   Exercise 5
 // (How works method Array.prototype.filter() ) Examples:
+//  # filter() always accept a function as parameter, the function always return boolean value true or false. filter() 
+// returns a new array that contains only the elements that meet the conditions
+
+// # var a=["","a","ab","aba","abab","ababa"]    ---> If the function does not return a conditional statement directly,
+// var b=a.filter(x=>{                                it is made up of a number of statements,
+//   if (x.length<2) return true;                     then the curly braces must be added.
+//   var y=x.split("").reverse().join("");
+//   return x==y;
+// })
+// console.log(b)   //output: [ '', 'a', 'aba', 'ababa' ]
+// (The elements as a parameters of the function, return true value).
 
 // const arr = [-5, -3, 2, 5, 6, 8, 35];
 //   const arr2 = arr.filter((el, i) => i % 2 === 0);
