@@ -335,3 +335,8 @@ console.log(str + '!'.repeat(n));
 // function strCount(str, letter){  
 //   return str.replace(new RegExp('[^'+letter+']','g'),'').length;
 // }
+
+//  let FilterNumbers = function(str) {
+//   return str.split(/\d+/g).join('');
+// }
+// console.log(filterNumbers('f915c67c00779c30a1cf93'));  //Output "fcccacf";
