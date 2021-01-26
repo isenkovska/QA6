@@ -1,3 +1,11 @@
+// Additional materials javaScript
+// 1. https://javascript.info (english and russian)
+// 2. https://eloquent-javascript.karmazzin.ru
+
+
+
+
+
 // https://docs.google.com/spreadsheets/d/19keEqFh_Z08_OgFpvBu7UWrmEGT5EYdqYaKSjhe2wM4/edit#gid=1948005648 Julia's test cases
 // https://github.com/jstepiko/CCA  
 // https://docs.google.com/document/d/10YxY2G35iNST-Ht1qWY-DWYRUiZtWlR4mFoE-cNZrjM/edit#heading=h.7zan7ymq7rce/
