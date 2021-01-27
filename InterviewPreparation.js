@@ -2,6 +2,8 @@
 // 1. https://javascript.info (english and russian)
 // 2. https://eloquent-javascript.karmazzin.ru
 
+// QA Interview questions
+//https://github.com/Vladislav610/QA_bible/blob/master/Manual%20part%201.md
 
 
 
