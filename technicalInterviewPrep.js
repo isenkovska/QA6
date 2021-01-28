@@ -58,6 +58,7 @@
 // review into recrution 
 
 // Factorial
+// Prime numbers
 
 
 // *** Exersice (Practice JS)
