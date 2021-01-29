@@ -41,7 +41,7 @@
    // }
    // console.log(str2 + str.replace(/[A-Z]/g,''));
 
-// *** Exercise 6 Fibonacci number
+// *** Exercise 6 Fibonacci number ---> The Fibonacci Sequence is the series of numbers, where the next number is found by adding up the two numbers before it.
    // Solution 1
    // *** A recursive function is a function that calls itself until it doesn’t. And this technique is called recursion.
    //     Recursion is used to solve problems that contain smaller sub-problems.
@@ -67,9 +67,17 @@
 //  console.log(fib(5))
 // review into recrution 
 
+// Factorial ---> Factorial fn says to multiply all whole number from our chosen number down to 1.
 
-
-// Factorial
+// function factorial(num){
+//    if (num === 0) return 0;
+//     let factorialNum = 1;
+//     for(let i = num; i > 1; i--){
+//       factorialNum = factorialNum * i;
+//     }
+//      return factorialNum;
+//    }
+//  console.log(factorial(4));  // 24; 7 -> 5040
 // Prime numbers
 
 
