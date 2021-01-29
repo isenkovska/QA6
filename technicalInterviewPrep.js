@@ -41,7 +41,7 @@
    // }
    // console.log(str2 + str.replace(/[A-Z]/g,''));
 
-   // *** Exercise 6 Fibonacci number
+// *** Exercise 6 Fibonacci number
    // Solution 1
    // *** A recursive function is a function that calls itself until it doesn’t. And this technique is called recursion.
    //     Recursion is used to solve problems that contain smaller sub-problems.
@@ -51,7 +51,7 @@
    // or
 // function fib(n) {
 //    if (n < 2) return 1;
-//    return fib(n - 1) + fib(n - 2);
+//    return fib(n - 1) + fib(n - 2);  // formula Fibinacci
 //  }
 //  console.log(fib(4));
     
@@ -66,6 +66,8 @@
 //  }
 //  console.log(fib(5))
 // review into recrution 
+
+
 
 // Factorial
 // Prime numbers
