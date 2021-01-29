@@ -43,8 +43,18 @@
 
    // *** Exercise 6 Fibonacci number
    // Solution 1
-// function fib(n) {   return n <= 1 ? n : fib(n - 1) + fib(n - 2); }
+   // *** A recursive function is a function that calls itself until it doesn’t. And this technique is called recursion.
+   //     Recursion is used to solve problems that contain smaller sub-problems.
+// function fib(n) {   
+// return n <= 2 ? n : fib(n - 1) + fib(n - 2); }
 // console.log(fib(8));
+   // or
+// function fib(n) {
+//    if (n < 2) return 1;
+//    return fib(n - 1) + fib(n - 2);
+//  }
+//  console.log(fib(4));
+    
   // Solution 2
 //   function fib(n){
 //    if(n < 1 ) return 0;
