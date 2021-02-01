@@ -2,20 +2,23 @@
 // How do you can check if the number is integer?
    // let n = 5;
    // console.log(Number.isInteger(n));    // or console.log(n % 1 === 0);
-// *** Exercise 2
+
+   // *** Exercise 2
 // how do you can convert number into string?
    // let n = 25;
    // console.log(n + '');
    // console.log(String(n));
    // console.log(JSON.stringify(n));
    // console.log(n.toString());
-// *** Exercise 3
+
+   // *** Exercise 3
 // How do you can convert string into binary number?
    // let s = '251234567891567812443';
    // console.log(s * 1);
    // console.log(Number(s));
    // console.log(Number.parseInt(s));
-// *** Exercice 4
+
+   // *** Exercice 4
 // How you can check if two strings are anagrams?  (anagrams are case insensitive)
   // ---- (first solution)
    // let str = 'silent';
@@ -30,7 +33,8 @@
    // let a =  str.split('').sort().join('');
    // let b = str2.split('').sort().join('');
    // console.log(a === b);
-// *** Exercise 5
+
+   // *** Exercise 5 ?????need to check
 // Get string, that consists with all capital letters in the front and other in their original state
    // let str = 'HelloSvitLaNa';
    // let str2 = '';
@@ -41,7 +45,8 @@
    // }
    // console.log(str2 + str.replace(/[A-Z]/g,''));
 
-// *** Exercise 6 Fibonacci number ---> The Fibonacci Sequence is the series of numbers, where the next number is found by adding up the two numbers before it.
+// *** Exercise 6 Fibonacci number ---> The Fibonacci Sequence is the series of numbers, where the next number is found 
+//                                      by adding up the two numbers before it.
    // Solution 1
    // *** A recursive function is a function that calls itself until it doesn’t. And this technique is called recursion.
    //     Recursion is used to solve problems that contain smaller sub-problems.
@@ -67,7 +72,7 @@
 //  console.log(fib(5))
 // review into recrution 
 
-// Factorial ---> Factorial fn says to multiply all whole number from our chosen number down to 1.
+//  Exercise 7 Factorial ---> Factorial fn says to multiply all whole number from our chosen number down to 1.
 
 // function factorial(num){
 //    if (num === 0) return 0;
@@ -79,7 +84,6 @@
 //    }
 //  console.log(factorial(4));  // 24; 7 -> 5040
 // Prime numbers
-
 
 // *** Exersice (Practice JS)
 // Return the smallest possible number
@@ -107,13 +111,14 @@
  
 // ??? Questions about error object
 
-// ***  Exercise
+// ***  Exercise 8
 // We have two separate arrays, fill out with numbers,  and we need to make concatenation and descending sort .
 // const arr = [8, 7, 5, 3]; 
 // const arr1 = [2, 5, 30, 20, 25];
   //---(Solution 1 with using methods )
   //console.log([].concat(arr, arr1).sort((a, b) => b - a));
-   // --- (Soluton 2 with not using method concat() )
+   
+  // --- (Soluton 2 with not using method concat() )
     //   console.log((arr + ',' + arr1).split(',').sort((a,b) => b - a).map(el => el * 1));
       // Solution with using only loops
        //   const arr = [8, 7, 5, 3]; 
@@ -143,5 +148,8 @@
        //  }
        //  bubbleSort(arr);
        //  console.log(bubbleSort(arr));      //Output [30, 25, 20, 8, 7, 5, 5, 3, 2]
+
+// *** Exercise 3
+// - We have an array of numbers and we need to switch the min and max in it.
        
      
