@@ -28,15 +28,9 @@
 //   console.log(factorial(4));  // 4*3*2*1=24
 
 
-// const fibonacci = n => {
 
-//     if (n <= 2) {
-//         console.log(n, 'inside if');
-//         return 1;
-       
-//     } else {
-//         console.log(n, 'inside else');
-//         return fibonacci(n - 1) + fibonacci(n - 2);
-//     }
-// };
-// console.log(fibonacci(8));
+
+
+
+
+
