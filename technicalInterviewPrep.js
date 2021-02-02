@@ -151,5 +151,31 @@
 
 // *** Exercise 3
 // - We have an array of numbers and we need to switch the min and max in it.
-       
+//  1 Solution (with using Math.obj)
+// const arr = [124, 125, 12, 15, 21, 14];
+// let arr2 = [];
+// let min = Math.min(...arr);
+// let max = Math.max(...arr);
+// for(let i = 0; i < arr.length; i++){
+// if (arr[i] === max){ arr2.push(min);}
+// else if (arr[i] === min){ arr2.push(max);}
+//  else {arr2.push(arr[i]);}
+// }
+//  console.log(arr);
+//  console.log(arr2);  // [124, 12, 125, 15, 21, 14]
+
+// 2 Solution 
+// const arr = [124, 12, 15, 21, 141, 125];
+// let min = arr[0];
+// let max = arr[0];
+//  let indexMin ;
+//  let indexMax ;
+// for(let i = 1; i < arr.length; i++){
+// if (arr[i] < min){min = arr[i]; indexMin = i;}
+// if (arr[i] > max){max = arr[i]; indexMax = i;}
+//   arr[indexMin] = max;
+//   arr[indexMax] = min;
+// }
+//  console.log(arr);   // [124, 141, 15, 21, 12, 125]
+
      
