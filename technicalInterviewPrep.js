@@ -83,7 +83,10 @@
 //      return factorialNum;
 //    }
 //  console.log(factorial(4));  // 24; 7 -> 5040
-// Prime numbers
+
+// Exercise 8 PRIME NUMBER ---> is a whole number that cannot be made by multiplying other whole numbers,
+//                              (if we can make it by multiplying other whole numbers it is a COMPOSITE NUMBER )
+//                               *** and 1 is not prime and also not composite.
 
 // *** Exersice (Practice JS)
 // Return the smallest possible number
@@ -111,7 +114,7 @@
  
 // ??? Questions about error object
 
-// ***  Exercise 8
+// ***  Exercise 9
 // We have two separate arrays, fill out with numbers,  and we need to make concatenation and descending sort .
 // const arr = [8, 7, 5, 3]; 
 // const arr1 = [2, 5, 30, 20, 25];
@@ -149,7 +152,7 @@
        //  bubbleSort(arr);
        //  console.log(bubbleSort(arr));      //Output [30, 25, 20, 8, 7, 5, 5, 3, 2]
 
-// *** Exercise 3
+// *** Exercise 10
 // - We have an array of numbers and we need to switch the min and max in it.
 //  1 Solution (with using Math.obj)
 // const arr = [124, 125, 12, 15, 21, 14];
