@@ -1,3 +1,7 @@
+// ~~ (tilde) --> (Double bitwise NOT ) is using for removing decimal part of a number
+//  console.log(~~478.1455); // 478, so technically do the same as Math.floor method
+
+
 // function hypotenuse(a, b) {
 //     return Math.ceil(Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2)));
 // }
