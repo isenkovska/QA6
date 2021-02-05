@@ -88,6 +88,12 @@
 //                              (if we can make it by multiplying other whole numbers it is a COMPOSITE NUMBER )
 //                               *** and 1 is not prime and also not composite.
 
+
+
+
+
+
+
 // *** Exersice (Practice JS)
 // Return the smallest possible number
 //   function theSmallestNum(n){
