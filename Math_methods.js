@@ -1,6 +1,12 @@
 // ~~ (tilde) --> (Double bitwise NOT ) is using for removing decimal part of a number
 //  console.log(~~478.1455); // 478, so technically do the same as Math.floor method
 
+//https://www.codewars.com/kata/564f458b4d75e24fc9000041/train/javascript
+// var remainder = function(D , d){
+//     return d == 0? "NaN" : D - (d *~~(D / d));
+// }
+// console.log(remainder(19, 2)); // 1
+
 
 // function hypotenuse(a, b) {
 //     return Math.ceil(Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2)));
