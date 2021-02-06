@@ -88,6 +88,8 @@
 //                              (if we can make it by multiplying other whole numbers it is a COMPOSITE NUMBER )
 //                               *** and 1 is not prime and also not composite.
 
+// https://www.codewars.com/kata/58e230e5e24dde0996000070/train/javascript
+// Next Prime
 
 
 
