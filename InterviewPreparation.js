@@ -5,6 +5,8 @@
 // QA Interview questions and answers
 // 1. https://github.com/Vladislav610/QA_bible/blob/master/Manual%20part%201.md
 // 2. https://www.testingxperts.com/
+// 3.  https://www.utest.com/ ---> fot real testing
+
 
 
 
