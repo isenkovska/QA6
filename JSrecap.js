@@ -27,10 +27,18 @@
 // }
 //   console.log(factorial(4));  // 4*3*2*1=24
 
-
-
-
-
+//   *** Nullish coalescing operator '?? ***
+// ?? returns the first argument if it’s not null/undefined. Otherwise, the second one.
+      // The important difference between them is that:
+      //  ---- || returns the first truthy value.
+      //  ---- ?? returns the first defined value.
+//In practice though, we may want to use default value only when the variable is null/undefined. 
+//That is, when the value is really unknown/not set.
+// let height = 0;
+// alert(height || 100); // Output 100
+// alert(height ?? 100); // Output 0
+// The precedence of the ?? operator is about the same as ||, just a bit lower. It equals 5 
+// So if we’d like to choose a value with ?? in an expression with other operators, consider adding parentheses.
 
 
 
