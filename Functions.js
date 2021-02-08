@@ -10,8 +10,23 @@
 // 2. Line (2) copies it into the variable func. Please note again: there are no parentheses after sayHi. 
 // If there were, then func = sayHi() would write the result of the call sayHi() into func, not the function sayHi itself.
 // 3. Now the function can be called as both sayHi() and func().
+// ---------------------------
+// A Function Expression is created when the execution reaches it and is usable only from that moment.
+// Once the execution flow passes to the right side of the assignment let sum = function… – here we go, 
+// the function is created and can be used (assigned, called, etc. ) from now on.
 
-
+// A Function Declaration can be called earlier than it is defined.
+// For example, a global Function Declaration is visible in the whole script, no matter where it is.
+// That’s due to internal algorithms. When JavaScript prepares to run the script, 
+// it first looks for global Function Declarations in it and creates the functions. We can think of it as an “initialization stage”.
+    // Another special feature of Function Declarations is their block scope.
+    // In strict mode, when a Function Declaration is within a code block, it’s visible everywhere inside that block. 
+    // But not outside of it.
+// --- Functions are values. They can be assigned, copied or declared in any place of the code.
+// --- If the function is declared as a separate statement in the main code flow, that’s called a “Function Declaration”.
+// --- If the function is created as a part of an expression, it’s called a “Function Expression”.
+// --- Function Declarations are processed before the code block is executed. They are visible everywhere in the block.
+// --- Function Expressions are created when the execution flow reaches them.
 
 
 
