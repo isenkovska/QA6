@@ -1,6 +1,23 @@
+// some notes
+// function sayHi() {      // (1) create
+//     alert( "Hello" );
+//   }
+
+//   let func = sayHi;    // (2) copy
+//   func(); // Hello     // (3) run the copy (it works)!
+//   sayHi(); // Hello    // this still works too (why wouldn't it)
+// 1. The Function Declaration (1) creates the function and puts it into the variable named sayHi.
+// 2. Line (2) copies it into the variable func. Please note again: there are no parentheses after sayHi. 
+// If there were, then func = sayHi() would write the result of the call sayHi() into func, not the function sayHi itself.
+// 3. Now the function can be called as both sayHi() and func().
+
+
+
+
+
+
 //1 функция hello, которая принимает имя name и возращает 
 // приветствие:  "Hello" name
-
 // function hello(name){
 //   return 'Hello ' + name;
 // }
@@ -173,23 +190,6 @@
 //  }
 
 // console.log(sum(10));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ----------------------------------------------
 //14 функция factorial, которая принимает число n и
 // возвращает 1 * 2 * 3 * ... * n
@@ -276,13 +276,8 @@
 //   let space = (n - word.length - 2) / 2;
 //   if (n < word.length) return 'Error';
 // return '*'.repeat(n) + '\n' + '*' + ' '.repeat(space) + word + ' '.repeat(space)+ '*' + '\n' + '*'.repeat(n);
-  
-  
 // }
-
-
 // console.log(wordInBox('summer',14));
-
 // ----------------------------------------------------
 //20 функция принимает secondWord(str)строку из 3 слов, 
 // разделенных пробелами и возвращает второе слово
