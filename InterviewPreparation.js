@@ -2,6 +2,8 @@
 // 1. https://javascript.info (english and russian)
 // 2. https://eloquent-javascript.karmazzin.ru
 
+// https://github.com/Automedon/CodeWars-7-kyu-Soluitions ---> Codewars
+
 // QA Interview questions and answers
 // 1. https://github.com/Vladislav610/QA_bible/blob/master/Manual%20part%201.md
 // 2. https://www.testingxperts.com/
@@ -51,7 +53,6 @@
 // https://www.loom.com/share/72d7c98246914bdbb262ce56f3931b1b   --> about CI / CD
 
 // Codewars:
-// https://www.codewars.com/kata/563d59dd8e47a5ed220000ba/train/javascript
 // https://www.codewars.com/kata/5a63948acadebff56f000018/train/javascript
 
 
