@@ -87,6 +87,7 @@
 // Exercise 8 PRIME NUMBER ---> is a whole number that cannot be made by multiplying other whole numbers,
 //                              (if we can make it by multiplying other whole numbers it is a COMPOSITE NUMBER )
 //                               *** and 1 is not prime and also not composite.
+// *** 1 Solution
 // function isPrime(num) {
 //     let div = 1;
 //     for (let i = 2; i <= num; i++) {
@@ -106,7 +107,19 @@
 //     return div === 1;
 // }
 // console.log(isPrime(8));
-
+// -------------------------- 2 Solution ---------------
+// function isPrime(num) {
+//     if (num < 2 || num % 4 === 0) return false;
+//     let div = 1;
+//     for (let i = num - 1; i >= 2; i--) {
+//         if (Number.isInteger(num / i)) {
+//             div++;
+//         }
+//         if (div > 1) { return false; }
+//     }
+//     return div === 1;
+// }
+// console.log(isPrime(15));
 // https://www.codewars.com/kata/58e230e5e24dde0996000070/train/javascript
 // Next Prime
 
@@ -207,4 +220,9 @@
 //   arr[indexMax] = min;
 // }
 //  console.log(arr);   // [124, 141, 15, 21, 12, 125]
+
+
+
+
+
 
