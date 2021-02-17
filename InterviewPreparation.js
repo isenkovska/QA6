@@ -9,6 +9,7 @@
 // 1. https://github.com/Vladislav610/QA_bible/blob/master/Manual%20part%201.md
 // 2. https://www.testingxperts.com/
 // 3.  https://www.utest.com/ ---> fot real testing
+// 4. https://qxf2.com/?utm_source=qa-interview&utm_medium=click&utm_campaign=From%20QA%20Interview   ---> QA services for interview testing (Factorial)
 
 
 // *** Other useful 
