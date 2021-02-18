@@ -121,36 +121,31 @@
 // }
 // console.log(isPrime(15));
 
-// How to difine the Next Prime Number
-// function nextPrime(n) {
-//     // console.log(n)
-//     if (n <= 1) return 2;
-//     if (n === 2) return 3;
-
-//     let i = n + 2;
-//     while (i <= n * 2) {
-//         if (isPrime(i)) { return i; }
-//         else { i++; }
-//     }
-// }
-
-// function isPrime(num) {
-//     let div = 1;
-//     for (let i = 2; i <= num; i++) {
-//         for (let j = i; j <= num; j++) {
-//             if (i * j !== num) { continue; }
-//             else { div++; }
-//         }
-//     }
-//     return div === 1;
-// }
-// console.log(nextPrime(1609));  // Output (1613)
-
 // https://www.codewars.com/kata/58e230e5e24dde0996000070/train/javascript
-
-
-
-
+// Next Prime
+// function nextPrime(n){
+//    if (n <= 1) return 2;
+//    if (n === 2) return 3;
+   
+  
+//     let i = (n % 2 === 0) ? n : n + 2;
+//     while(i <= n*2){
+//       if(isPrime(i)){return i;}
+//       else {i++;}
+//     }
+//   }
+  
+//     function isPrime(num) {
+//     let div = 1;
+//     for(let i = 2; i <= num; i++){
+//       for(let j = i; j <= num; j++ ){
+//         if(i * j !== num) {continue;}
+//         else {div++;}
+//       }
+//     }
+//    return div === 1;
+//   }
+// console.log(nextPrime(4));  //Output(5)
 
 // *** Exersice (Practice JS)
 // Return the smallest possible number
