@@ -1,3 +1,7 @@
+// Divisibility rules are a set of general rules that are often used to determine whether or not a number is evenly divisible by another number.
+// *** 9: If the sum of the digits is divisible by nine, the number is   divisible by 9 (7101 -> 7 + 1 + 1 = 9 % 9 === 0);
+
+
 // *** Exercise 1 
 // How do you can check if the number is integer?
 // let n = 5;
