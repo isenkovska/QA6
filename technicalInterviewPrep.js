@@ -127,7 +127,6 @@
 //    if (n <= 1) return 2;
 //    if (n === 2) return 3;
    
-  
 //     let i = (n % 2 === 0) ? n : n + 2;
 //     while(i <= n*2){
 //       if(isPrime(i)){return i;}
