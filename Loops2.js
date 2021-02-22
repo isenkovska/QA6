@@ -159,10 +159,10 @@
 // console.log(pattern(5, 4));
 // -------------------------------------------
 
-// 7 Draw the next pattern
-// for (let i = 1; i <= 20; i += 5) {
-//     let str = '';
-//     for (let j = i; j < i + 5; j++) {
+// 7 Draw the next pattern                                                                   1  2  3  4  5
+// for (let i = 1; i <= 20; i += 5) {                                                        6  7  8  9  10
+//     let str = '';                                                                         11 12 13 14 15
+//     for (let j = i; j < i + 5; j++) {                                                     16 17 18 19 20
 //         if (j < 10) str = str + j + '  ';  // if two digits, then output two spaces
 //         else str = str + j + ' ';          // if one digit, then output one space 
 //     }
