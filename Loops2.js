@@ -342,5 +342,22 @@
 //     }                                                                                       I
 //    return str;                                                                                I
 // }
-
-// 
+// ---------------------------------------------------------------------
+// 7 kyu (ATM)
+// https://www.codewars.com/kata/5635e7cb49adc7b54500001c/solutions/javascript
+// function solve(n) {
+//     if (n % 10) return -1;
+//     const arr = [500, 200, 100, 50, 20, 10];
+//     let notes = 0;
+//     let i = 0;
+//     while (n > 0) {
+//         if (n - arr[i] >= 0) {
+//             n = n - arr[i];
+//             notes++;
+//         } else {
+//             i++;
+//         }
+//     }
+//     return notes;
+// }
+// console.log(solve(770));   //Output (770 ---> 270 -> 70 -> 20 -> 0) result 4
