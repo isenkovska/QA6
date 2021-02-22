@@ -158,6 +158,17 @@
 // }
 // console.log(pattern(5, 4));
 // -------------------------------------------
+
+// 7 Draw the next pattern
+// for (let i = 1; i <= 20; i += 5) {
+//     let str = '';
+//     for (let j = i; j < i + 5; j++) {
+//         if (j < 10) str = str + j + '  ';  // if two digits, then output two spaces
+//         else str = str + j + ' ';          // if one digit, then output one space 
+//     }
+//     console.log(str);
+// }
+// --------------------------------------------
 // 7 Треугольник из чисел (n - количество строк)
 // "1 
 // 2 3 
@@ -332,4 +343,4 @@
 //    return str;                                                                                I
 // }
 
-
+// 
