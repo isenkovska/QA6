@@ -16,6 +16,11 @@
 // 1. https://goit.ua/marathon/  ---> HTNL + CSS
 
 
+// 1.https://cocalc.com/projects/a3d8b1aa-c0ca-4ff8-b91d-398c368e2e0e/files/Welcome%20to%20CoCalc.ipynb?session=default  ---> fot training command line in real time
+
+
+
+
 
 // https://docs.google.com/spreadsheets/d/19keEqFh_Z08_OgFpvBu7UWrmEGT5EYdqYaKSjhe2wM4/edit#gid=1948005648 Julia's test cases
 // https://github.com/jstepiko/CCA  
