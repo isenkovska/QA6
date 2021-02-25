@@ -149,6 +149,14 @@
 //    return div === 1;
 //   }
 // console.log(nextPrime(4));  //Output(5)
+// -------------------------------------------
+// the Triangular Number Sequence: is a number of dots in each triangular pattern:
+// By adding another row of dots and counting all the dots we can find the next number of the sequence. For example:
+//   * The first triangle has just one dot.
+//   * The second triangle has another row with 2 extra dots, making 1 + 2 = 3;
+//   * The third triangle has another row with 3 extra dots, making 1 + 2 + 3 = 6; ets!
+// https://www.codewars.com/kata/580878d5d27b84b64c000b51/train/javascript
+// *** Sum of Triangular Numbers ***
 
 // *** Exersice (Practice JS)
 // Return the smallest possible number
