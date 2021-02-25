@@ -178,6 +178,21 @@
 //   i = arr.indexOf(elem, i + 1);
 // }
 // console.log(indices); // [0, 2, 4, 5]
+// -------------------------------------------
+// https://www.codewars.com/kata/555bfd6f9f9f52680f0000c5/train/javascript
+// *** Reverse a Number ***
+// function reverseNumber(n) {
+//    return n < 0 ? -(n + '').replace('-','').split('').reverse().join(''):   // unary minus -> convert an operand into a number and negate the value after that.
+//                   +(n + '').replace('-','').split('').reverse().join('');
+//  }
+// console.log(-423); //Output -324
+
+
+
+
+
+
+
 
 // *** Reverse words
 // https://www.codewars.com/kata/5259b20d6021e9e14c0010d4
