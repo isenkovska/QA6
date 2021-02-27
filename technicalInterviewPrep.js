@@ -124,6 +124,15 @@
 //     return div === 1;
 // }
 // console.log(isPrime(15));
+//-----------------------------------------------------
+// https://www.codewars.com/kata/5676f07029da352ba2000065/train/javascript
+// *** Largest prime number containing n digit ***
+
+
+
+
+
+
 
 // https://www.codewars.com/kata/58e230e5e24dde0996000070/train/javascript
 // Next Prime
