@@ -157,6 +157,16 @@
 //   * The third triangle has another row with 3 extra dots, making 1 + 2 + 3 = 6; ets!
 // https://www.codewars.com/kata/580878d5d27b84b64c000b51/train/javascript
 // *** Sum of Triangular Numbers ***
+// function sumTriangularNumbers(n) {
+//     let i = 1;
+//     let dots = 2;
+//     while (i <= n) {
+//         i = i + dots;
+//         dots++;
+//     }
+//     return i;
+// }
+// console.log(6);  //56
 
 // *** Exersice (Practice JS)
 // Return the smallest possible number
