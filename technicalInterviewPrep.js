@@ -18,8 +18,8 @@
 // *** Exercise 3
 // How do you can convert string into binary number?
 // let s = '251234567891567812443';
-// console.log(s * 1);
-// console.log(Number(s));
+// console.log(s * 1);       // or
+// console.log(Number(s));  // or
 // console.log(Number.parseInt(s));
 
 // *** Exercice 4
