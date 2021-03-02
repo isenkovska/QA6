@@ -91,26 +91,6 @@
 //                              (if we can make it by multiplying other whole numbers it is a COMPOSITE NUMBER )
 //                               *** and 1 is not prime and also not composite.
 // *** 1 Solution
-// function isPrime(num) {
-//     let div = 1;
-//     for (let i = 2; i <= num; i++) {
-//         for (let j = i; j <= num; j++) {
-//             if (i * j !== num) {
-//                 console.log(`${i} * ${j} = ${i * j}`);
-//                 continue;
-//             }
-//             else {
-//                 div++;
-//                 console.log('************');
-//                 console.log(`${i} * ${j} = ${i * j}`);
-//                 console.log('************');
-//             }
-//         }
-//     }
-//     return div === 1;
-// }
-// console.log(isPrime(8));
-// -------------------------------------
 // It's in twice faster as we do just an half checks
 // function isPrime(num) {
 //     let div = 1;
