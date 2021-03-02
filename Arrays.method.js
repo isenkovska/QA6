@@ -199,6 +199,7 @@
 // }
 // console.log(reverseNumber(432)); // Output 234 (but would't work with negative numbers)
 
+
 // *** Reverse words
 // https://www.codewars.com/kata/5259b20d6021e9e14c0010d4
 // function reverseWords(str) {
