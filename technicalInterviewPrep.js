@@ -91,7 +91,7 @@
 //                              (if we can make it by multiplying other whole numbers it is a COMPOSITE NUMBER )
 //                               *** and 1 is not prime and also not composite.
 // *** 1 Solution
-// It's in twice faster as we do just an half checks
+// It's  twice faster as we do just an half checks
 // function isPrime(num) {
 //     let div = 1;
 //     for (let i = 2; i <= num / 2; i++) {
@@ -125,6 +125,7 @@
 //-----------------------------------------------------
 // https://www.codewars.com/kata/5676f07029da352ba2000065/train/javascript
 // *** Largest prime number containing n digit ***
+// !!! We know that to check if the number is Prime, it's enough to verify just until (Math.sqrt(our number))
 // function isPrime(num) {
 //     if (num <= 1) return false;
 //     for (let i = 2; i <= Math.round(num ** 0.5); i++) {
