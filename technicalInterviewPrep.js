@@ -76,8 +76,7 @@
 //  console.log(fib(5))
 // review into recrution 
 
-//  Exercise 7 Factorial ---> Factorial fn says to multiply all whole number from our chosen number down to 1.
-
+// *** Exercise 7 Factorial *** ---> Factorial fn says to multiply all whole number from our chosen number down to 1.
 // function factorial(num){
 //    if (num === 0) return 0;
 //     let factorialNum = 1;
@@ -105,6 +104,25 @@
 //                 console.log('************');
 //                 console.log(`${i} * ${j} = ${i * j}`);
 //                 console.log('************');
+//             }
+//         }
+//     }
+//     return div === 1;
+// }
+// console.log(isPrime(8));
+// -------------------------------------
+// It's in twice faster as we do just an half checks
+// function isPrime(num) {
+//     let div = 1;
+//     for (let i = 2; i <= num / 2; i++) {
+//         for (let j = i; j <= num; j++) {
+//             if (i * j === num) {
+//                 console.log(`${i} * ${j} = ${i * j}`);
+//                 console.log('----------------------');
+//                 return false;
+//             } else {
+//                 console.log(`${i} * ${j} = ${i * j}`);
+//                 continue;
 //             }
 //         }
 //     }
