@@ -143,14 +143,9 @@
 //     return number;
 // }
 // console.log(2) ;  //Output 97
-
-
-
-
-
-
+// -------------------------------------------------------------------
 // https://www.codewars.com/kata/58e230e5e24dde0996000070/train/javascript
-// Next Prime
+// *** Next Prime *** (My solution)
 // function nextPrime(n){
 //    if (n <= 1) return 2;
 //    if (n === 2) return 3;
@@ -173,7 +168,9 @@
 //    return div === 1;
 //   }
 // console.log(nextPrime(4));  //Output(5)
-// -------------------------------------------
+// ********************
+//  (Solution #2)
+
 // the Triangular Number Sequence: is a number of dots in each triangular pattern:
 // By adding another row of dots and counting all the dots we can find the next number of the sequence. For example:
 //   * The first triangle has just one dot.
