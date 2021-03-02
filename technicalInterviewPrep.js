@@ -34,7 +34,7 @@
 //  }
 // console.log(true);  // We can do additional check if the length in both strings are equal.
 // ---- (second solution)
-// let a =  str.split('').sort().join('');
+// let a =  str.split('').sort().join('');  //By default, the sort() method sorts the values as strings in alphabetical and ascending order.
 // let b = str2.split('').sort().join('');
 // console.log(a === b);
 
