@@ -170,7 +170,22 @@
 // console.log(nextPrime(4));  //Output(5)
 // ********************
 //  (Solution #2)
-
+// function isPrime(num) {
+//     if (num < 2) { return false; }
+//     for (let i = 2; i <= Math.round(num ** 0.5); i++) {
+//         if (num % i === 0) { return false; }
+//     }
+//     return true;
+// }
+// function nextPrime(n) {
+//     n = n + 1;
+//     while (!isPrime(n)) {
+//         n++;
+//     }
+//     return n;
+// }
+// console.log(nextPrime(11));  //Output 13
+// ------------------------------------------------------------------
 // the Triangular Number Sequence: is a number of dots in each triangular pattern:
 // By adding another row of dots and counting all the dots we can find the next number of the sequence. For example:
 //   * The first triangle has just one dot.
