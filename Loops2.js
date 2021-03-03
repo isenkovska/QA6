@@ -361,3 +361,53 @@
 //     return notes;
 // }
 // console.log(solve(770));   //Output (770 ---> 270 -> 70 -> 20 -> 0) result 4
+// -----------------------------------------------------------------------------
+// https://www.codewars.com/kata/5b0d67c1cb35dfa10b0022c7/train/javascript
+// *** The wheat/rice and chessboard problem ***
+// function squaresNeeded(grains){
+//     let sumOfGrain = 0;                                       // 1 sq = 1 gr;
+//     let squares = 0;                                          // 2 sq = 1*2 = 2 gr;
+//     let grainInTheSquare = 1;                                 // 3 sq = 2*2 = 4 gr; 
+//     for(let i = 0; sumOfGrain < grains; i++){                 // 4 sq = 4*2 = 8 gr;
+//       sumOfGrain += grainInTheSquare;                         // 5 sq = 8*2 = 16gr
+//       //console.log('sum ' + sumOfGrain);
+//       grainInTheSquare *= 2;  
+//      // console.log('grain ' + grainInTheSquare);
+//       squares ++;                        
+//     }
+//      return squares;
+//   }
+//   console.log(squaresNeeded(4));
+// ------------------------------------------------------------------------
+// https://www.codewars.com/kata/58c9322bedb4235468000019/train/javascript
+// *** "Very Even" Numbers *** (Solution #1)
+// function isVeryEvenNumber(n) {
+//     while (n >= 10) {
+//         let sum = 0
+//         while (n > 0) {
+//             let last = n % 10;
+//             sum += last;
+//             n = Math.floor(n / 10);
+//         }
+//         n = sum;
+//     }
+//     return n % 2 === 0;
+// }
+// console.log(isVeryEvenNumber(1456));  // 16 -> 7 (False)
+// *** (Solution #2)
+// function sumOfDigits(n) {
+//     let sum = 0;
+//     while (n > 0) {
+//         sum += n % 10;
+//         n = Math.floor(n / 10);
+//     }
+//     return sum;
+// }
+
+// function veryEvenNumber(num) {
+//     while (num >= 10) {
+//         num = sumOfDigits(num)
+//     }
+//     return num % 2 === 0;
+// }
+// console.log(veryEvenNumber(987));    // Output 24 -> 6 (True)
