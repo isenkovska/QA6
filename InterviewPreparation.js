@@ -2,7 +2,7 @@
 // 1. https://javascript.info (english and russian)
 // 2. https://eloquent-javascript.karmazzin.ru
 
-// https://github.com/Automedon/CodeWars-7-kyu-Soluitions ---> Solu// const { performance } = require('perf_hooks');
+// https://github.com/Automedon/CodeWars-7-kyu-Soluitions --->  Codewars solutions
 
 
 // *** QA Interview questions and answers
