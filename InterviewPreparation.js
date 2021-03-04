@@ -12,6 +12,9 @@
 // 4. https://qxf2.com/?utm_source=qa-interview&utm_medium=click&utm_campaign=From%20QA%20Interview   ---> QA services for interview testing (Factorial)
 
 
+// https://docs.google.com/spreadsheets/d/1o_-xifsDMBX0teiY4RPzcgcYQj8wjEiusm80cFdM480/edit?usp=sharing --> QA8(21801) Test cases "My little Hero"
+
+
 // *** Other useful 
 // 1. https://goit.ua/marathon/  ---> HTNL + CSS
 // 2 https://confluence.atlassian.com/jirasoftwareserver088/advanced-searching-1004937767.html  --> advanced searching in Jira
