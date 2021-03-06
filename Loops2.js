@@ -411,3 +411,5 @@
 //     return num % 2 === 0;
 // }
 // console.log(veryEvenNumber(987));    // Output 24 -> 6 (True)
+
+// Codewars (Christmas tree)
