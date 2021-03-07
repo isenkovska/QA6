@@ -14,7 +14,7 @@
 
 
 // https://docs.google.com/spreadsheets/d/1o_-xifsDMBX0teiY4RPzcgcYQj8wjEiusm80cFdM480/edit?usp=sharing --> QA8(21801) Test cases "My little Hero"
-
+// https://www.youtube.com/watch?v=8LrVMrgiytA&ab_channel=DefineAgile  ---> JQL (How to add your filters)
 
 // *** Other useful 
 // 1. https://goit.ua/marathon/  ---> HTNL + CSS
