@@ -1,3 +1,5 @@
+// !!! Chain coding 
+
 // const animals = [
 //     {name: 'Fluffy', species: 'cat'},
 //     {name: 'Jimmy', species: 'dog'},
