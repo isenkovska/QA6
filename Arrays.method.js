@@ -1,9 +1,16 @@
 // !!! How to populate array with numbers without traditional loop 
+// *** Solution #1
 // let arr = Array.apply(0, Array(10))
 // .map(function(value, index){
 //   return index + 1;
 // })
 // console.log(arr);     // Output [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// *** Solution #2
+// let filled = Array.apply(null, { length: 10}).map(function (_, i) {
+//    return i + 1;
+// });
+//console.log(filled);   // Output [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
  
 
 
