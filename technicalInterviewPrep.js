@@ -211,13 +211,13 @@
 // function twinPrime(n) {
 //     let pairOfTwin = 0;
 //     let arr = isPrime(n);
-
 //     for (let i = 0; i < arr.length; i++) {
 //         if (arr[i + 1] - arr[i] === 2) { pairOfTwin++; }
 //     }
 //     return pairOfTwin;
 // }
 // console.log(10);  // Output [2, 3, 5, 7, 11] ---> 2
+// (Solution #2)
 
 //-------------------------------------------------------------------
 // the Triangular Number Sequence: is a number of dots in each triangular pattern:
