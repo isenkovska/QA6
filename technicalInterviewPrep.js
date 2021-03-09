@@ -186,6 +186,40 @@
 // }
 // console.log(nextPrime(11));  //Output 13
 // ------------------------------------------------------------------
+// https://www.codewars.com/kata/596549c7743cf369b900021b/train/javascript
+// *** The search for Primes! Twin Primes! ***
+// (My solution)
+// function isPrime(num) {
+//     let arrOfPrime = [];
+//     for (let i = 2; i <= num + 1; i++) {
+//         let div = 1;
+//         for (let j = 2; j <= i; j++) {
+//             if (i % j === 0) {
+//                 div++;
+//             }
+//             if (div > 2) {
+//                 break;
+//             }
+//         }
+//         if (div === 2) {
+//             arrOfPrime.push(i);
+//         }
+//     }
+//     return arrOfPrime;
+// }
+
+// function twinPrime(n) {
+//     let pairOfTwin = 0;
+//     let arr = isPrime(n);
+
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i + 1] - arr[i] === 2) { pairOfTwin++; }
+//     }
+//     return pairOfTwin;
+// }
+// console.log(10);  // Output [2, 3, 5, 7, 11] ---> 2
+
+//-------------------------------------------------------------------
 // the Triangular Number Sequence: is a number of dots in each triangular pattern:
 // By adding another row of dots and counting all the dots we can find the next number of the sequence. For example:
 //   * The first triangle has just one dot.
