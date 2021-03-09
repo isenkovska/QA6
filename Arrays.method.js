@@ -1,4 +1,12 @@
-// *** Exercise 1
+// !!! How to populate array with numbers without traditional loop 
+// let arr = Array.apply(0, Array(10))
+// .map(function(value, index){
+//   return index + 1;
+// })
+// console.log(arr);     // Output [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ 
+
+
 // Reduce method
 // https://www.codewars.com/kata/5715eaedb436cf5606000381
 //     Sum of positive
@@ -194,7 +202,6 @@
 //       n = ~~(n / 10);         // ~~n=432/10=43;  ~~n=43/10=4;   ~~n=4/10=0;  
 //       num = num * 10 + last;  // num=0*10+2= 2;  num=2*10+3=23;  num=23*10+4=234
 //    }
-
 //    return num;
 // }
 // console.log(reverseNumber(432)); // Output 234 (but would't work with negative numbers)
