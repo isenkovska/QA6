@@ -1,4 +1,9 @@
 // !!! Chain coding 
+// !!! Inheritance
+// !!! Prototype
+// !!! Hosting
+// !!! Closure
+// !!! Recursion
 
 // const animals = [
 //     {name: 'Fluffy', species: 'cat'},
