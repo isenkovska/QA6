@@ -6,11 +6,12 @@
 
 
 // *** QA Interview questions and answers
-// 1. https://github.com/Vladislav610/QA_bible/blob/master/Manual%20part%201.md
-// 2. https://www.testingxperts.com/
-// 3.  https://www.utest.com/ ---> fot real testing
-// 4. https://qxf2.com/?utm_source=qa-interview&utm_medium=click&utm_campaign=From%20QA%20Interview   ---> QA services for interview testing (Factorial)
-// 5. https://www.youtube.com/channel/UCjugV5pnY6WjvTGYm7U1ucg  ---> WebdriverIO
+// 1.https://www.youtube.com/watch?v=LkNExPNBKkc&ab_channel=EvgenyKimEvgenyKim  --> QA interview questions
+// 2. https://github.com/Vladislav610/QA_bible/blob/master/Manual%20part%201.md
+// 3. https://www.testingxperts.com/
+// 4.  https://www.utest.com/ ---> fot real testing
+// 5. https://qxf2.com/?utm_source=qa-interview&utm_medium=click&utm_campaign=From%20QA%20Interview   ---> QA services for interview testing (Factorial)
+// 6. https://www.youtube.com/channel/UCjugV5pnY6WjvTGYm7U1ucg  ---> WebdriverIO
 
 
 // https://docs.google.com/spreadsheets/d/1o_-xifsDMBX0teiY4RPzcgcYQj8wjEiusm80cFdM480/edit?usp=sharing --> QA8(21801) Test cases "My little Hero"
