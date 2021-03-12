@@ -207,7 +207,6 @@
 //     }
 //     return arrOfPrime;
 // }
-
 // function twinPrime(n) {
 //     let pairOfTwin = 0;
 //     let arr = isPrime(n);
@@ -216,8 +215,8 @@
 //     }
 //     return pairOfTwin;
 // }
-// console.log(10);  // Output [2, 3, 5, 7, 11] ---> 2
-// (Solution #2)
+// console.log(10);  // Output [2, 3, 5, 7, 11]] ---> 2
+//  *** (Solution #2) ***
 
 //-------------------------------------------------------------------
 // the Triangular Number Sequence: is a number of dots in each triangular pattern:
