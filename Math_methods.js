@@ -1,6 +1,10 @@
 // ~~ (tilde) --> (Double bitwise NOT ) is using for removing decimal part of a number
 //  console.log(~~478.1455); // 478, so technically do the same as Math.floor method
 
+
+// *** If we need to generate random numbers within certain range, for ex. 10
+// console.log(Math.trunc(Math.random () * 10));   ---> not inclusive 10
+
 //https://www.codewars.com/kata/564f458b4d75e24fc9000041/train/javascript
 // var remainder = function(D , d){
 //     return d == 0? "NaN" : D - (d *~~(D / d));
