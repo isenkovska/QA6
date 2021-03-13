@@ -5,7 +5,10 @@
 // *** If we need to generate random numbers within certain range, for ex. 10
 // console.log(Math.trunc(Math.random () * 10));                ---> from 0 to 9 (not inclusive 10);
 //  console.log(Math.trunc(Math.random () * 10) + 'our number'); --> if we need to specify the start from
-// 
+// *** if we want to generate random phone numbers with 10 digits
+// let min = 1000000000;
+// let max = 9000000000;
+// console.log(Math.trunc(Math.random () * (max - min + 1)) + min);
 
 //https://www.codewars.com/kata/564f458b4d75e24fc9000041/train/javascript
 // var remainder = function(D , d){
