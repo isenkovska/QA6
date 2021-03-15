@@ -10,8 +10,15 @@
 //    return i + 1;
 // });
 //console.log(filled);   // Output [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
- 
-
+  // *** Solution #3 (through assing values)
+// function fillOutArray(num) {
+//    let arr = [];
+//    for (let i = 2, j = 0; i <= num * 2; i += 2, j++) {
+//       arr[j] = i;
+//    }
+//    return arr;
+// }
+// console.log(fillOutArray(10));  //Output [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 
 // Reduce method
 // https://www.codewars.com/kata/5715eaedb436cf5606000381
