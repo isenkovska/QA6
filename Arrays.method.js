@@ -4,9 +4,8 @@
 // .map(function(value, index){
 //   return index + 1;
 // })
-// console.log(arr);     // Output [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-// *** Solution #2
+// console.log(arr);     // Output [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+  // *** Solution #2 ***
 // let filled = Array.apply(null, { length: 10}).map(function (_, i) {
 //    return i + 1;
 // });
