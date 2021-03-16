@@ -18,8 +18,9 @@
 // https://www.youtube.com/watch?v=8LrVMrgiytA&ab_channel=DefineAgile  ---> JQL (How to add your filters)
 
 // *** Other useful 
-// 1. https://goit.ua/marathon/  ---> HTNL + CSS
+// 1. https://goit.ua/marathon/  ---> HTML + CSS
 // 2. https://devhints.io/xpath  ---> Xpath cheatsheet
+// 3. https://carbi.me/          ---> to train CSS and XPath (Dmitrii's website)
 
 
 // 1.https://cocalc.com/projects/a3d8b1aa-c0ca-4ff8-b91d-398c368e2e0e/files/Welcome%20to%20CoCalc.ipynb?session=default  ---> fot training command line in real time
