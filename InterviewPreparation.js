@@ -19,6 +19,7 @@
 
 // *** Other useful 
 // 1. https://goit.ua/marathon/  ---> HTML + CSS
+  // !!! server side rendering
 // 2. https://devhints.io/xpath  ---> Xpath cheatsheet
 // 3. https://carbi.me/          ---> to train CSS and XPath (Dmitrii's website)
 
