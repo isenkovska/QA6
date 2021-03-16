@@ -19,7 +19,7 @@
 
 // *** Other useful 
 // 1. https://goit.ua/marathon/  ---> HTNL + CSS
-// 2 https://confluence.atlassian.com/jirasoftwareserver088/advanced-searching-1004937767.html  --> advanced searching in Jira
+// 2. https://devhints.io/xpath  ---> Xpath cheatsheet
 
 
 // 1.https://cocalc.com/projects/a3d8b1aa-c0ca-4ff8-b91d-398c368e2e0e/files/Welcome%20to%20CoCalc.ipynb?session=default  ---> fot training command line in real time
